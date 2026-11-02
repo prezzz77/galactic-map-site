@@ -239,6 +239,18 @@ function updateSystemPanel(system) {
   const systemDescription = document.getElementById('system-description');
   const primaryBeacon = document.getElementById('primary-beacon');
   const beaconNote = document.getElementById('beacon-note');
+  const detailSystemName = document.getElementById('detail-system-name');
+  const detailSystemStatus = document.getElementById('detail-system-status');
+  const detailSystemId = document.getElementById('detail-system-id');
+  const detailSystemSummary = document.getElementById('detail-system-summary');
+  const detailSystemTraits = document.getElementById('detail-system-traits');
+
+  const summaryText = system.summary || system.description;
+  const traits = system.traits || [
+    'Stable orbit pattern',
+    `Distance ${system.distance}`,
+    `Class ${system.className}`
+  ];
 
   statusValue.textContent = system.status;
   systemId.textContent = system.id;
@@ -247,6 +259,18 @@ function updateSystemPanel(system) {
   systemDescription.textContent = system.description;
   primaryBeacon.textContent = system.beacon;
   beaconNote.textContent = system.beaconNote;
+
+  detailSystemName.textContent = system.label;
+  detailSystemStatus.textContent = system.status;
+  detailSystemId.textContent = system.id;
+  detailSystemSummary.textContent = summaryText;
+
+  detailSystemTraits.innerHTML = '';
+  traits.forEach((trait) => {
+    const item = document.createElement('li');
+    item.textContent = trait;
+    detailSystemTraits.appendChild(item);
+  });
 }
 
 function selectSystem(systemId) {
