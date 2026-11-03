@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="依照星系、分類與天體逐層探索宇宙，閱讀容易理解且附有來源的科學資訊。"
+    />
+    <meta name="theme-color" content="#070b17" />
+    <title>探索星圖 — 宇宙漫遊</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="explorer.js"></script>
+  </head>
+  <body>
+    <div class="space-backdrop" aria-hidden="true">
+      <div class="space-glow"></div>
+      <div class="space-stars"></div>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="宇宙漫遊首頁">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span>宇宙漫遊</span>
+      </a>
+      <a class="header-return" href="index.html">
+        <span aria-hidden="true">←</span> 返回星系總覽
+      </a>
+    </header>
+
+    <main class="explorer-main">
+      <nav class="breadcrumbs" id="breadcrumbs" aria-label="探索路徑"></nav>
+      <div id="explorer-content" aria-live="polite">
+        <p class="loading-message">正在載入探索資料…</p>
+      </div>
+    </main>
+  </body>
+</html>

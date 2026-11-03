@@ -1,136 +1,78 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-Hant">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Galactic Map</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Futuristic galaxy map landing page concept inspired by cosmic exploration interfaces."
+      content="從星系、天體分類到行星，一起用可靠的科學資料探索宇宙。"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Rajdhani:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <meta name="theme-color" content="#070b17" />
+    <title>宇宙漫遊 — 從這裡開始探索</title>
     <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
   </head>
   <body>
-    <div class="stars stars-back"></div>
-    <div class="stars stars-front"></div>
+    <div class="space-backdrop" aria-hidden="true">
+      <div class="space-glow"></div>
+      <div class="space-stars"></div>
+    </div>
 
-    <header class="topbar panel">
-      <div class="brand-block">
-        <div class="brand-mark">✦</div>
-        <div>
-          <div class="eyebrow">Galactic Network</div>
-          <h1>SkyHub Map</h1>
-        </div>
-      </div>
-
-      <nav class="toolbar" aria-label="Primary navigation">
-        <button class="tool-btn active" type="button" data-mode="overview">Overview</button>
-        <button class="tool-btn" type="button" data-mode="systems">Systems</button>
-        <button class="tool-btn" type="button" data-mode="routes">Routes</button>
-        <button class="tool-btn" type="button" data-mode="atlas">Atlas</button>
-      </nav>
-
-      <div class="search-box" role="search">
-        <input id="system-search" type="text" placeholder="Search system" aria-label="Search a system" />
-        <button id="search-button" type="button">Locate</button>
-      </div>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="宇宙漫遊首頁">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span>宇宙漫遊</span>
+      </a>
+      <span class="header-note">一段從星系開始的科學旅程</span>
     </header>
 
-    <main class="map-shell" aria-label="Galactic map interface">
-      <aside class="info-panel panel">
-        <p class="panel-kicker">System Monitor</p>
-        <h2 id="sector-name">Euclid Sector</h2>
+    <main class="home-main">
+      <section class="home-hero" aria-labelledby="home-title">
+        <p class="eyebrow"><span class="eyebrow-line"></span> COSMIC EXPLORER</p>
+        <h1 id="home-title">從一片星海，<span>開始探索。</span></h1>
+        <p class="hero-copy">
+          選擇一個星系，循著分類與天體，一步步靠近我們所知道的宇宙。
+        </p>
+        <a class="start-cue" href="#galaxy-grid">
+          <span class="start-cue-icon" aria-hidden="true">↓</span>
+          <span>選擇星系開始探索</span>
+        </a>
+      </section>
 
-        <div id="detail-card" class="detail-card">
-          <div class="detail-heading">
-            <span class="detail-badge" id="system-status">Stable</span>
-            <span class="detail-id" id="system-id">A-01</span>
-          </div>
-
-          <div class="detail-meta">
-            <div>
-              <span>Class</span>
-              <strong id="system-class">G7p</strong>
-            </div>
-            <div>
-              <span>Distance</span>
-              <strong id="system-distance">12.4 AU</strong>
-            </div>
-          </div>
-
-          <p id="system-description">
-            Primary waypoint with consistent signal density and stable portal conditions.
-          </p>
-        </div>
-
-        <div class="stat-row">
+      <section class="map-section" aria-labelledby="universe-map-heading">
+        <div class="section-heading">
           <div>
-            <span>Known Systems</span>
-            <strong id="known-systems">128</strong>
+            <p class="eyebrow">INTERACTIVE STAR MAP</p>
+            <h2 id="universe-map-heading">在星圖中選擇目的地</h2>
           </div>
-          <div>
-            <span>Active Routes</span>
-            <strong id="active-routes">24</strong>
-          </div>
+          <p class="section-hint">點選星系標記，直接切換至該星系頁面</p>
         </div>
-
-        <div class="mini-card accent">
-          <span class="label">Primary Beacon</span>
-          <strong id="primary-beacon">VIV-017</strong>
-          <small id="beacon-note">Stable portal residuals</small>
-        </div>
-
-        <div class="mini-card">
-          <span class="label">Sector Drift</span>
-          <strong id="sector-drift">+0.08°</strong>
-          <small id="drift-note">Within safe corridor</small>
-        </div>
-      </aside>
-
-      <section class="map-panel panel" aria-label="Galactic map visualization">
-        <div class="map-grid"></div>
-        <svg id="route-layer" class="route-layer" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"></svg>
-        <div id="system-layer" class="system-layer" aria-live="polite"></div>
-
-        <div class="map-overlay map-overlay-left">
-          <span class="dot cyan"></span>
-          Uncharted corridor
-        </div>
-        <div class="map-overlay map-overlay-right">
-          <span class="dot gold"></span>
-          Stable path
+        <div class="map-layout">
+          <div id="universe-map" class="map-host" aria-label="可互動星系星圖"></div>
+          <aside id="galaxy-focus" class="map-focus" aria-live="polite">
+            <p class="eyebrow">DESTINATION PREVIEW</p>
+            <h3>預覽星系</h3>
+            <p>點選星系標記即可進入該星系的探索頁面。</p>
+          </aside>
         </div>
       </section>
 
-      <aside class="detail-panel panel">
-        <p class="panel-kicker">System profile</p>
-        <div class="profile-header">
-          <h3 id="detail-system-name">Helios Drift</h3>
-          <span class="detail-badge light" id="detail-system-status">Stable</span>
+      <section class="galaxy-section" id="galaxy-grid" aria-labelledby="galaxy-heading">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">GALAXY DIRECTORY</p>
+            <h2 id="galaxy-heading">星系目錄</h2>
+          </div>
+          <p class="section-hint">也可以從目錄直接進入</p>
         </div>
-
-        <div class="profile-id-row">
-          <span class="detail-id" id="detail-system-id">A-01</span>
+        <div id="galaxy-cards" class="galaxy-grid" aria-live="polite">
+          <p class="loading-message">正在整理星圖…</p>
         </div>
+      </section>
 
-        <p id="detail-system-summary" class="system-summary">
-          A luminous gateway of trade routes, calm atmospheres, and clear launch windows.
-        </p>
-
-        <ul id="detail-system-traits" class="trait-list" aria-live="polite">
-          <li>High signal clarity</li>
-          <li>Stable orbital flow</li>
-          <li>Low hazard risk</li>
-        </ul>
-      </aside>
+      <p class="home-footnote">
+        內容以已知天文觀測為基礎；數值會因測量方式與新發現而更新。
+      </p>
     </main>
-
-    <script src="script.js"></script>
   </body>
 </html>

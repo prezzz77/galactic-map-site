@@ -1,0 +1,1890 @@
+{
+  "meta": {
+    "title": "宇宙漫遊天體資料",
+    "updated": "2026-11-03",
+    "note": "天文數值為便於入門的近似值；衛星數與觀測資料會隨研究更新。"
+  },
+  "galaxies": [
+    {
+      "id": "milky-way",
+      "name": "銀河系",
+      "type": "棒旋星系",
+      "visual": "milky-way",
+      "distance": "直徑約 10 萬光年",
+      "summary": "太陽與地球所在的家園，也是我們夜空中那條淡淡的銀白光帶。",
+      "description": "銀河系是一個包含數千億顆恆星的棒旋星系。太陽位在其中一條旋臂附近，距離銀河中心約 2.6 萬光年。由於我們身在星系內部，銀河系的整體形狀是透過觀測與模型拼合而成。",
+      "categories": [
+        {
+          "id": "solar-system",
+          "name": "太陽系",
+          "type": "恆星系統",
+          "visual": "solar-system",
+          "description": "由太陽及受其引力束縛的行星、矮行星、小天體與塵埃組成。先從太陽和八大行星開始認識我們的鄰居。",
+          "bodies": [
+            {
+              "id": "sun",
+              "name": "太陽",
+              "kind": "G 型主序星",
+              "visual": "sun",
+              "summary": "太陽系中心的恆星，提供地球大部分的光與熱。",
+              "description": "太陽是一顆由氫、氦電漿構成的恆星。核心中的核融合將氫轉變為氦並釋放能量；這些能量穿越太陽內部後，以光與其他形式向外傳播。",
+              "diameter": "約 139 萬公里",
+              "mass": "約 1.989 × 10³⁰ 公斤",
+              "orbitalPeriod": "約 2.3 億年繞銀河中心一周",
+              "rotationPeriod": "約 25 天（赤道附近；不同緯度轉速不同）",
+              "atmosphere": "外層由光球、色球與日冕等電漿層構成",
+              "temperature": "光球約 5,500 °C；日冕溫度更高",
+              "discovered": "自史前即被觀測；現代物理研究逐步揭示其能量來源",
+              "known": [
+                "核心核融合是太陽長期發光與放熱的主要能量來源。",
+                "太陽磁場活動會造成太陽黑子、閃焰與日冕物質拋射。"
+              ],
+              "unknown": [
+                "日冕為何比可見表面熱得多，完整機制仍是活躍研究課題。"
+              ],
+              "funFacts": [
+                "太陽光抵達地球約需 8 分 20 秒。",
+                "太陽含有太陽系絕大部分的總質量。"
+              ],
+              "source": {
+                "name": "NASA：太陽概覽",
+                "url": "https://science.nasa.gov/sun/facts/",
+                "accessed": "參考 NASA 太陽資料"
+              }
+            },
+            {
+              "id": "mercury",
+              "name": "水星",
+              "kind": "類地行星",
+              "visual": "mercury",
+              "summary": "離太陽最近、體積最小的行星，表面佈滿撞擊坑。",
+              "description": "水星是一顆沒有濃厚大氣層的岩石行星。它的表面受到太陽強烈加熱，但缺乏足夠的大氣留住熱量，因此晝夜溫差極大。",
+              "diameter": "約 4,879 公里",
+              "mass": "約 3.30 × 10²³ 公斤",
+              "distanceFromParent": "平均約 5,790 萬公里",
+              "orbitalPeriod": "約 88 個地球日",
+              "rotationPeriod": "約 58.6 個地球日",
+              "atmosphere": "極稀薄的外逸層，主要含氧、鈉、氫、氦與鉀",
+              "temperature": "約 −180 至 430 °C（表面範圍）",
+              "moons": "0",
+              "discovered": "自古即可見；伽利略於 17 世紀以望遠鏡觀測",
+              "known": [
+                "水星與太陽的軌道共振為 3:2：自轉三圈約等於繞日兩圈。",
+                "水星極區永久陰影的撞擊坑中存在水冰證據。"
+              ],
+              "unknown": [
+                "水星形成時為何保留如此巨大的金屬核心，仍有不同研究解釋。"
+              ],
+              "funFacts": [
+                "水星的一個太陽日（一次正午到下一次正午）約為 176 個地球日。",
+                "雖然水星離太陽最近，它不是太陽系最熱的行星。"
+              ],
+              "source": {
+                "name": "NASA：水星概覽",
+                "url": "https://science.nasa.gov/mercury/facts/",
+                "accessed": "參考 NASA 行星資料"
+              }
+            },
+            {
+              "id": "venus",
+              "name": "金星",
+              "kind": "類地行星",
+              "visual": "venus",
+              "summary": "被厚重雲層包覆的岩石行星，表面是太陽系行星中最熱的。",
+              "description": "金星大小與地球相近，但表面環境截然不同。濃密的二氧化碳大氣造成強烈溫室效應，讓地表長期維持極高溫與高氣壓。",
+              "diameter": "約 12,104 公里",
+              "mass": "約 4.87 × 10²⁴ 公斤",
+              "distanceFromParent": "平均約 1 億 820 萬公里",
+              "orbitalPeriod": "約 225 個地球日",
+              "rotationPeriod": "約 243 個地球日（逆行）",
+              "atmosphere": "主要為二氧化碳，雲層含硫酸液滴",
+              "temperature": "平均表面約 465 °C",
+              "moons": "0",
+              "discovered": "自古即可見；伽利略於 17 世紀以望遠鏡觀測",
+              "known": [
+                "金星自轉方向與多數行星相反，稱為逆行自轉。",
+                "雷達測繪已確認金星表面有廣大的火山平原與山地。"
+              ],
+              "unknown": [
+                "金星火山目前是否仍活躍，以及其地質活動頻率，仍在研究中。"
+              ],
+              "funFacts": [
+                "金星自轉一圈比它繞太陽一圈還久。",
+                "濃厚雲層反射大量陽光，使金星常成為夜空中最明亮的行星。"
+              ],
+              "source": {
+                "name": "NASA：金星概覽",
+                "url": "https://science.nasa.gov/venus/facts/",
+                "accessed": "參考 NASA 行星資料"
+              }
+            },
+            {
+              "id": "earth",
+              "name": "地球",
+              "kind": "類地行星",
+              "visual": "earth",
+              "summary": "目前唯一已知擁有生命的行星，表面有穩定的液態水海洋。",
+              "description": "地球由岩石地函與金屬核心構成，表面約七成被液態水覆蓋。大氣、磁場與海洋共同參與調節地表環境；生命已在地球上演化出多樣型態。",
+              "diameter": "約 12,742 公里",
+              "mass": "約 5.97 × 10²⁴ 公斤",
+              "distanceFromParent": "平均約 1 億 4,960 萬公里（1 天文單位）",
+              "orbitalPeriod": "約 365.256 天",
+              "rotationPeriod": "約 23 小時 56 分（恆星日）",
+              "atmosphere": "主要為氮氣與氧氣；表面約 71% 為海洋",
+              "temperature": "全球平均地表約 15 °C（會隨時間與定義而變化）",
+              "moons": "1",
+              "discovered": "人類自古居住於地球；地球為行星的認知逐步形成",
+              "known": [
+                "地球是目前唯一確認存在生命的天體。",
+                "液態水、適合生命的化學元素與長期穩定的能量來源共同影響地球生命環境。"
+              ],
+              "unknown": [
+                "生命最初如何在地球出現，科學界尚未得到完整答案。",
+                "地球以外是否存在生命，目前尚無確認證據。"
+              ],
+              "funFacts": [
+                "地球並非完美球體；自轉使赤道略為鼓起。",
+                "月球潮汐與地球自轉共同造成海洋潮汐。"
+              ],
+              "source": {
+                "name": "NASA：地球概覽",
+                "url": "https://science.nasa.gov/earth/facts/",
+                "accessed": "參考 NASA 地球資料"
+              }
+            },
+            {
+              "id": "mars",
+              "name": "火星",
+              "kind": "類地行星",
+              "visual": "mars",
+              "summary": "乾冷的岩石行星，古老河道地形顯示它曾有大量液態水活動。",
+              "description": "火星有稀薄的大氣、火山、峽谷與極冠。探測器在表面與地下發現水冰，也觀察到古代水流留下的地形；是否曾出現生命仍未知。",
+              "diameter": "約 6,779 公里",
+              "mass": "約 6.42 × 10²³ 公斤",
+              "distanceFromParent": "平均約 2 億 2,790 萬公里",
+              "orbitalPeriod": "約 687 個地球日",
+              "rotationPeriod": "約 24 小時 37 分",
+              "atmosphere": "稀薄大氣，以二氧化碳為主",
+              "temperature": "全球平均約 −65 °C（地點與季節差異大）",
+              "moons": "2",
+              "discovered": "自古即可見；望遠鏡與太空探測器持續觀測",
+              "known": [
+                "火星表面有水冰，古老地形也顯示曾有液態水流動。",
+                "火星有四季，因為它的自轉軸相對軌道平面傾斜。"
+              ],
+              "unknown": [
+                "火星過去或現在是否曾孕育微生物生命，尚無定論。"
+              ],
+              "funFacts": [
+                "火星上的奧林帕斯山是太陽系已知最大的火山。",
+                "火星一天只比地球的一天長約 37 分鐘。"
+              ],
+              "source": {
+                "name": "NASA：火星概覽",
+                "url": "https://science.nasa.gov/mars/facts/",
+                "accessed": "參考 NASA 行星資料"
+              }
+            },
+            {
+              "id": "jupiter",
+              "name": "木星",
+              "kind": "氣體巨行星",
+              "visual": "jupiter",
+              "summary": "太陽系最大的行星，具有廣闊的大氣帶與持續變化的風暴。",
+              "description": "木星主要由氫與氦構成，沒有像地球那樣的固體表面。其雲層、磁場與眾多衛星構成一個複雜的行星系統。",
+              "diameter": "約 139,820 公里",
+              "mass": "約 1.90 × 10²⁷ 公斤",
+              "distanceFromParent": "平均約 7 億 7,860 萬公里",
+              "orbitalPeriod": "約 11.86 個地球年",
+              "rotationPeriod": "約 9 小時 56 分",
+              "atmosphere": "主要為氫與氦；可見雲帶含氨與水等成分",
+              "temperature": "可見雲層約 −110 °C（高度不同，溫度不同）",
+              "moons": "115（NASA 目前列出的確認數）",
+              "discovered": "自古即可見；伽利略於 1610 年觀測到四顆最大衛星",
+              "known": [
+                "木星的強磁場與快速自轉共同塑造了廣大的磁層。",
+                "大紅斑是長期存在於木星大氣中的巨大風暴。"
+              ],
+              "unknown": [
+                "大紅斑如何形成、其深層結構與未來變化，仍持續研究。"
+              ],
+              "funFacts": [
+                "木星的四顆最大衛星——木衛一、木衛二、木衛三與木衛四——由伽利略於 1610 年觀測發現。",
+                "木星雲層中的風暴尺度可遠大於地球上的同類天氣系統。"
+              ],
+              "source": {
+                "name": "NASA：木星概覽",
+                "url": "https://science.nasa.gov/jupiter/facts/",
+                "accessed": "衛星數依 NASA 目前列出的確認資料"
+              }
+            },
+            {
+              "id": "saturn",
+              "name": "土星",
+              "kind": "氣體巨行星",
+              "visual": "saturn",
+              "summary": "以壯觀的環聞名；環由大量冰粒、岩石碎片與塵埃構成。",
+              "description": "土星是以氫和氦為主的氣體巨行星。它的環系由許多大小不一的冰與岩石顆粒組成；數十顆衛星與環之間也存在複雜的引力互動。",
+              "diameter": "約 120,500 公里（赤道直徑）",
+              "mass": "約 5.68 × 10²⁶ 公斤",
+              "distanceFromParent": "平均約 14 億 3,000 萬公里",
+              "orbitalPeriod": "約 29.4 個地球年",
+              "rotationPeriod": "約 10.7 小時（不同測量方法略有差異）",
+              "atmosphere": "主要為氫與氦；上層可見氨冰雲",
+              "temperature": "可見雲層約 −140 °C",
+              "moons": "274（2025 年公布的確認數）",
+              "discovered": "自古即可見；伽利略於 1610 年首次以望遠鏡觀測土星環",
+              "known": [
+                "土星環主要由水冰構成，也含岩石與塵埃。",
+                "土衛六有濃厚大氣與液態碳氫化合物湖泊。"
+              ],
+              "unknown": [
+                "土星環的精確年齡與形成過程仍有不同研究結果。"
+              ],
+              "funFacts": [
+                "土星的平均密度低於水，但這不代表能在水中放置一顆土星。",
+                "土星北極附近有持續存在的六角形大氣環流結構。"
+              ],
+              "source": {
+                "name": "NASA：土星概覽",
+                "url": "https://science.nasa.gov/saturn/facts/",
+                "accessed": "衛星數依 2025 年公布資料"
+              }
+            },
+            {
+              "id": "uranus",
+              "name": "天王星",
+              "kind": "冰巨行星",
+              "visual": "uranus",
+              "summary": "淡藍綠色的冰巨行星，自轉軸幾乎側躺在軌道平面上。",
+              "description": "天王星的大氣以氫、氦與甲烷為主，深處含有水、氨與甲烷等揮發性物質。它的極端軸傾角使季節變化格外漫長。",
+              "diameter": "約 51,118 公里（赤道直徑）",
+              "mass": "約 8.68 × 10²⁵ 公斤",
+              "distanceFromParent": "平均約 28 億 7,000 萬公里",
+              "orbitalPeriod": "約 84 個地球年",
+              "rotationPeriod": "約 17 小時 14 分（逆行）",
+              "atmosphere": "主要為氫、氦與甲烷",
+              "temperature": "大氣高層約 −195 °C",
+              "moons": "28（NASA 目前列出的已知數）",
+              "discovered": "威廉・赫歇爾於 1781 年確認其為行星",
+              "known": [
+                "天王星自轉軸傾斜約 98 度，呈近乎側躺的姿態。",
+                "甲烷吸收紅光，是天王星呈現藍綠色的原因之一。"
+              ],
+              "unknown": [
+                "天王星內部結構與其磁場形成機制仍未完全明瞭。"
+              ],
+              "funFacts": [
+                "天王星的一個季節約持續 21 個地球年。",
+                "天王星是望遠鏡發現的第一顆行星。"
+              ],
+              "source": {
+                "name": "NASA：天王星概覽",
+                "url": "https://science.nasa.gov/uranus/facts/",
+                "accessed": "參考 NASA 行星資料"
+              }
+            },
+            {
+              "id": "neptune",
+              "name": "海王星",
+              "kind": "冰巨行星",
+              "visual": "neptune",
+              "summary": "已知太陽系中距離太陽最遠的行星，具有高速風與深藍色大氣。",
+              "description": "海王星是一顆冰巨行星，由氫、氦及含水、氨、甲烷等物質的內部構成。它的深層大氣有強風與大型風暴，最外層環境寒冷而遙遠。",
+              "diameter": "約 49,528 公里（赤道直徑）",
+              "mass": "約 1.02 × 10²⁶ 公斤",
+              "distanceFromParent": "平均約 45 億公里",
+              "orbitalPeriod": "約 165 個地球年",
+              "rotationPeriod": "約 16 小時",
+              "atmosphere": "主要為氫、氦與甲烷",
+              "temperature": "大氣高層約 −200 °C",
+              "moons": "16（已知）",
+              "discovered": "1846 年由數學預測與望遠鏡觀測共同確認",
+              "known": [
+                "海王星的存在先由天王星軌道偏差推算，再以望遠鏡觀測確認。",
+                "海王星大氣存在極高速風流。"
+              ],
+              "unknown": [
+                "海王星內部熱量來源與長期大氣變化仍有待更多近距離觀測。"
+              ],
+              "funFacts": [
+                "海王星繞太陽一周約需 165 個地球年；它於 2011 年完成自 1846 年發現以來的第一圈公轉。",
+                "旅行者 2 號於 1989 年飛掠海王星，是目前唯一近距離造訪它的太空船。"
+              ],
+              "source": {
+                "name": "NASA：海王星概覽",
+                "url": "https://science.nasa.gov/neptune/facts/",
+                "accessed": "參考 NASA 行星資料"
+              }
+            }
+          ]
+        },
+        {
+          "id": "major-moons",
+          "name": "主要衛星",
+          "type": "繞行行星與矮行星的天然衛星",
+          "visual": "moons",
+          "description": "衛星是繞行行星或矮行星的天然天體。本分類收錄地球、火星、木星、土星、天王星、海王星與冥王星的代表性衛星；距離為平均軌道距離，尺寸與溫度皆為近似值。",
+          "bodies": [
+            {
+              "id": "moon",
+              "name": "月球",
+              "kind": "天然衛星",
+              "visual": "moon",
+              "summary": "地球唯一的天然衛星，潮汐鎖定使它總以同一面朝向地球。",
+              "description": "月球是地球唯一的天然衛星，也是人類曾親自登陸的地外天體。極區永久陰影中的撞擊坑已發現水冰；月球沒有濃厚大氣，表面溫度隨日照劇烈變化。",
+              "diameter": "約 3,475 公里",
+              "mass": "約 7.34 × 10²² 公斤",
+              "distanceFromParent": "平均約 384,400 公里",
+              "orbitalPeriod": "約 27.3 天（相對恆星）",
+              "rotationPeriod": "約 27.3 天，與公轉同步",
+              "atmosphere": "極稀薄的外逸層",
+              "temperature": "表面約 −173 至 127 °C",
+              "moons": "0",
+              "discovered": "自史前可見；伽利略於 1610 年以望遠鏡觀測",
+              "known": ["月球正在以每年約 3.8 公分的速度遠離地球。", "極區陰影撞擊坑中存在水冰。"],
+              "unknown": ["月球水冰的完整分布與可利用程度仍需探測。"],
+              "funFacts": ["月球的背面並非永遠黑暗；它也會被太陽照亮。", "月球的潮汐作用讓地球海洋產生規律潮汐。"],
+              "source": {
+                "name": "NASA：月球",
+                "url": "https://science.nasa.gov/moon/facts/",
+                "accessed": "參考 NASA 月球資料"
+              }
+            },
+            {
+              "id": "phobos",
+              "name": "火衛一",
+              "kind": "火星天然衛星",
+              "visual": "moon",
+              "summary": "火星最大的衛星，表面有巨大的斯蒂克尼撞擊坑。",
+              "description": "火衛一是一顆形狀不規則的小型衛星，沿著非常靠近火星的軌道運行。它的軌道逐漸衰減，未來可能解體形成火星環，或撞上火星。",
+              "diameter": "平均約 22 公里",
+              "mass": "約 1.07 × 10¹⁶ 公斤",
+              "distanceFromParent": "平均約 9,376 公里",
+              "orbitalPeriod": "約 7 小時 39 分",
+              "rotationPeriod": "約 7 小時 39 分，與公轉同步",
+              "atmosphere": "無可測得的大氣",
+              "temperature": "表面約 −112 至 −4 °C",
+              "moons": "0",
+              "discovered": "1877 年由 Asaph Hall 發現",
+              "known": ["火衛一繞火星的速度快於火星自轉，因此會從火星地表看見它西升東落。", "其表面有直徑約 9 公里的斯蒂克尼撞擊坑。"],
+              "unknown": ["火衛一究竟是被捕獲的小行星，還是由火星周圍物質形成，仍有不同解釋。"],
+              "funFacts": ["火衛一每天會在火星天空升起、落下數次。", "它是太陽系中距離母行星表面最近的大型衛星之一。"],
+              "source": {
+                "name": "NASA：火星衛星",
+                "url": "https://science.nasa.gov/mars/moons/",
+                "accessed": "參考 NASA 火星衛星資料"
+              }
+            },
+            {
+              "id": "deimos",
+              "name": "火衛二",
+              "kind": "火星天然衛星",
+              "visual": "moon",
+              "summary": "火星較小、較遠的衛星，外觀看起來像一顆被撞擊坑覆蓋的小天體。",
+              "description": "火衛二是火星兩顆天然衛星中較小的一顆，表面覆有細碎物質。它的軌道比火衛一遠，繞行火星約需 30 小時。",
+              "diameter": "平均約 12 公里",
+              "mass": "約 1.48 × 10¹⁵ 公斤",
+              "distanceFromParent": "平均約 23,460 公里",
+              "orbitalPeriod": "約 30.3 小時",
+              "rotationPeriod": "約 30.3 小時，與公轉同步",
+              "atmosphere": "無可測得的大氣",
+              "temperature": "表面約 −100 °C；隨日照變化",
+              "moons": "0",
+              "discovered": "1877 年由 Asaph Hall 發現",
+              "known": ["火衛二沿著接近圓形的軌道繞火星運行。", "它比火衛一更小，也更遠離火星。"],
+              "unknown": ["火衛二的起源與內部組成尚未確定。"],
+              "funFacts": ["火衛二的名稱來自希臘神話中的恐懼化身。", "火衛二的逃逸速度很低，撞擊產生的碎屑容易離開表面。"],
+              "source": {
+                "name": "NASA：火星衛星",
+                "url": "https://science.nasa.gov/mars/moons/",
+                "accessed": "參考 NASA 火星衛星資料"
+              }
+            },
+            {
+              "id": "io",
+              "name": "木衛一（Io）",
+              "kind": "木星天然衛星",
+              "visual": "moon",
+              "summary": "太陽系火山活動最活躍的天體，表面佈滿硫化物與火山構造。",
+              "description": "木衛一受到木星與其他伽利略衛星的引力拉扯，內部因此持續受潮汐加熱。這種加熱驅動大量活火山，噴出含硫物質並重塑表面。",
+              "diameter": "約 3,643 公里",
+              "mass": "約 8.93 × 10²² 公斤",
+              "distanceFromParent": "平均約 421,700 公里",
+              "orbitalPeriod": "約 1.77 天",
+              "rotationPeriod": "約 1.77 天，與公轉同步",
+              "atmosphere": "極稀薄、以二氧化硫為主",
+              "temperature": "平均表面約 −130 °C；火山熱點可高得多",
+              "moons": "0",
+              "discovered": "1610 年由伽利略觀測發現",
+              "known": ["木衛一是太陽系火山活動最活躍的天體。", "潮汐加熱是其火山活動的重要能量來源。"],
+              "unknown": ["木衛一內部岩漿海洋的範圍與火山活動如何長期變化仍在研究。"],
+              "funFacts": ["木衛一火山噴流可將物質送到數百公里高空。", "木衛一表面年輕，許多撞擊坑會被火山沉積物覆蓋。"],
+              "source": {
+                "name": "NASA：木星衛星",
+                "url": "https://science.nasa.gov/jupiter/moons/",
+                "accessed": "參考 NASA 木星衛星資料"
+              }
+            },
+            {
+              "id": "europa",
+              "name": "木衛二（Europa）",
+              "kind": "木星天然衛星",
+              "visual": "moon",
+              "summary": "冰殼下可能有全球性海洋，是太陽系生命研究的重要目標。",
+              "description": "木衛二表面由冰構成，裂紋與地表特徵顯示其冰殼下可能存在含鹽液態水海洋。海洋是否具備生命所需條件，仍需太空任務進一步研究。",
+              "diameter": "約 3,122 公里",
+              "mass": "約 4.80 × 10²² 公斤",
+              "distanceFromParent": "平均約 671,100 公里",
+              "orbitalPeriod": "約 3.55 天",
+              "rotationPeriod": "約 3.55 天，與公轉同步",
+              "atmosphere": "極稀薄的氧氣外逸層",
+              "temperature": "表面平均約 −160 °C",
+              "moons": "0",
+              "discovered": "1610 年由伽利略觀測發現",
+              "known": ["木衛二表面主要為水冰，並有證據支持冰殼下存在鹹水海洋。", "木衛二表面受到木星磁層與輻射環境影響。"],
+              "unknown": ["地下海洋的深度、化學組成與是否存在生命均未知。"],
+              "funFacts": ["木衛二可能擁有比地球海洋更多的液態水，但這仍是估計。", "NASA 的 Europa Clipper 已於 2024 年發射，將以多次飛掠研究其適居條件。"],
+              "source": {
+                "name": "NASA：木星衛星",
+                "url": "https://science.nasa.gov/jupiter/moons/",
+                "accessed": "海洋性質屬觀測證據支持的推論"
+              }
+            },
+            {
+              "id": "ganymede",
+              "name": "木衛三（Ganymede）",
+              "kind": "木星天然衛星",
+              "visual": "moon",
+              "summary": "太陽系最大的衛星，直徑甚至大於水星。",
+              "description": "木衛三是太陽系最大的天然衛星，也是唯一已確認具有自身磁場的衛星。其內部可能分層，並有地下鹹水海洋的證據。",
+              "diameter": "約 5,268 公里",
+              "mass": "約 1.48 × 10²³ 公斤",
+              "distanceFromParent": "平均約 1,070,400 公里",
+              "orbitalPeriod": "約 7.15 天",
+              "rotationPeriod": "約 7.15 天，與公轉同步",
+              "atmosphere": "極稀薄的氧氣外逸層",
+              "temperature": "表面約 −180 至 −110 °C",
+              "moons": "0",
+              "discovered": "1610 年由伽利略觀測發現",
+              "known": ["木衛三的直徑大於水星，但質量較小。", "木衛三具有自身磁場，並有地下鹹水海洋的證據。"],
+              "unknown": ["地下海洋的深度、層次與化學環境尚未直接測定。"],
+              "funFacts": ["木衛三是目前唯一已知具有自身磁場的衛星。", "木衛三的磁場與木星磁場交互作用，形成極光活動。"],
+              "source": {
+                "name": "NASA：木星衛星",
+                "url": "https://science.nasa.gov/jupiter/moons/",
+                "accessed": "參考 NASA 木星衛星資料"
+              }
+            },
+            {
+              "id": "callisto",
+              "name": "木衛四（Callisto）",
+              "kind": "木星天然衛星",
+              "visual": "moon",
+              "summary": "布滿古老撞擊坑的冰岩天體，保留了早期太陽系撞擊紀錄。",
+              "description": "木衛四是木星伽利略衛星中距離木星最遠的一顆。它的表面受到大量撞擊而形成古老、密集的撞擊坑；磁場資料也曾提供地下鹹水層可能存在的線索。",
+              "diameter": "約 4,821 公里",
+              "mass": "約 1.08 × 10²³ 公斤",
+              "distanceFromParent": "平均約 1,882,700 公里",
+              "orbitalPeriod": "約 16.69 天",
+              "rotationPeriod": "約 16.69 天，與公轉同步",
+              "atmosphere": "極稀薄，含二氧化碳與氧",
+              "temperature": "表面平均約 −139 °C",
+              "moons": "0",
+              "discovered": "1610 年由伽利略觀測發現",
+              "known": ["木衛四是伽利略衛星中最外側的一顆。", "其表面遍布撞擊坑，地質活動程度低於木衛一與木衛二。"],
+              "unknown": ["木衛四內部是否有全球性液態水層，仍未確認。"],
+              "funFacts": ["木衛四上的瓦爾哈拉盆地是太陽系最大的多環撞擊構造之一。", "由於遠離木星，它受到的木星輻射低於木衛一與木衛二。"],
+              "source": {
+                "name": "NASA：木星衛星",
+                "url": "https://science.nasa.gov/jupiter/moons/",
+                "accessed": "參考 NASA 木星衛星資料"
+              }
+            },
+            {
+              "id": "titan",
+              "name": "土衛六（Titan）",
+              "kind": "土星天然衛星",
+              "visual": "moon",
+              "summary": "擁有濃厚氮氣大氣與液態甲烷湖泊，是土星最大的衛星。",
+              "description": "土衛六是太陽系中唯一擁有濃厚大氣的衛星。其表面有液態甲烷與乙烷形成的河道、湖泊與海，水冰則構成堅硬地殼。",
+              "diameter": "約 5,150 公里",
+              "mass": "約 1.35 × 10²³ 公斤",
+              "distanceFromParent": "平均約 1,221,870 公里",
+              "orbitalPeriod": "約 15.95 天",
+              "rotationPeriod": "約 15.95 天，與公轉同步",
+              "atmosphere": "濃厚大氣，主要為氮，含甲烷與有機氣膠",
+              "temperature": "表面約 −179 °C",
+              "moons": "0",
+              "discovered": "1655 年由 Christiaan Huygens 發現",
+              "known": ["土衛六表面有液態甲烷與乙烷湖泊。", "卡西尼－惠更斯任務曾以雷達測繪土衛六表面。"],
+              "unknown": ["土衛六地下水層與複雜有機化學是否能支持生命，尚未確定。"],
+              "funFacts": ["土衛六的液態湖海不是水，而是極低溫下的甲烷與乙烷。", "土衛六的地表氣壓比地球海平面略高。"],
+              "source": {
+                "name": "NASA：土星衛星",
+                "url": "https://science.nasa.gov/saturn/moons/",
+                "accessed": "參考 NASA 土星衛星資料"
+              }
+            },
+            {
+              "id": "enceladus",
+              "name": "土衛二（Enceladus）",
+              "kind": "土星天然衛星",
+              "visual": "moon",
+              "summary": "南極噴出含水冰與水氣羽流，顯示冰殼下可能有海洋。",
+              "description": "土衛二是一顆明亮的冰質衛星。卡西尼號在其南極裂縫觀測到水氣與冰粒羽流，羽流物質含有鹽與有機分子，提供地下海洋活動的證據。",
+              "diameter": "約 504 公里",
+              "mass": "約 1.08 × 10²⁰ 公斤",
+              "distanceFromParent": "平均約 237,950 公里",
+              "orbitalPeriod": "約 1.37 天",
+              "rotationPeriod": "約 1.37 天，與公轉同步",
+              "atmosphere": "局部、極稀薄的水氣外逸層",
+              "temperature": "一般表面約 −201 °C；裂縫區較暖",
+              "moons": "0",
+              "discovered": "1789 年由 William Herschel 發現",
+              "known": ["土衛二南極有持續噴出的水氣與冰粒羽流。", "羽流分析顯示其物質含鹽，支持地下液態水活動。"],
+              "unknown": ["土衛二海洋是否存在生命，目前沒有證據可確認。"],
+              "funFacts": ["土衛二噴出的冰粒有一部分補充了土星的 E 環。", "卡西尼號曾穿越羽流並直接分析其中物質。"],
+              "source": {
+                "name": "NASA：土星衛星",
+                "url": "https://science.nasa.gov/saturn/moons/",
+                "accessed": "海洋為多項觀測支持的推論"
+              }
+            },
+            {
+              "id": "mimas",
+              "name": "土衛一（Mimas）",
+              "kind": "土星天然衛星",
+              "visual": "moon",
+              "summary": "大型赫歇爾撞擊坑讓它看起來像科幻電影中的「死星」。",
+              "description": "土衛一是土星的一顆小型冰質衛星，表面有深而古老的撞擊坑。其內部結構仍在研究，曾有研究提出內部可能存在海洋或不同尋常的岩核。",
+              "diameter": "約 396 公里",
+              "mass": "約 3.75 × 10¹⁹ 公斤",
+              "distanceFromParent": "平均約 185,540 公里",
+              "orbitalPeriod": "約 22.6 小時",
+              "rotationPeriod": "約 22.6 小時，與公轉同步",
+              "atmosphere": "無可測得的大氣",
+              "temperature": "表面約 −200 °C",
+              "moons": "0",
+              "discovered": "1789 年由 William Herschel 發現",
+              "known": ["土衛一表面有直徑約 130 公里的赫歇爾撞擊坑。", "它的平均密度顯示內部含有大量水冰。"],
+              "unknown": ["土衛一是否有地下海洋仍有爭論，尚未確認。"],
+              "funFacts": ["赫歇爾撞擊坑的中央峰與高聳坑壁是土衛一的重要地貌。", "土衛一名字來自希臘神話中的巨人。"],
+              "source": {
+                "name": "NASA：土星衛星",
+                "url": "https://science.nasa.gov/saturn/moons/",
+                "accessed": "參考 NASA 土星衛星資料"
+              }
+            },
+            {
+              "id": "rhea",
+              "name": "土衛五（Rhea）",
+              "kind": "土星天然衛星",
+              "visual": "moon",
+              "summary": "土星第二大衛星，冰冷表面保存著大量撞擊坑。",
+              "description": "土衛五主要由水冰與岩石構成，是土星第二大的衛星。卡西尼號曾觀測其稀薄外逸層；早期提出的環系說法尚未獲得確認。",
+              "diameter": "約 1,528 公里",
+              "mass": "約 2.31 × 10²¹ 公斤",
+              "distanceFromParent": "平均約 527,100 公里",
+              "orbitalPeriod": "約 4.52 天",
+              "rotationPeriod": "約 4.52 天，與公轉同步",
+              "atmosphere": "極稀薄的氧氣與二氧化碳外逸層",
+              "temperature": "表面約 −220 °C",
+              "moons": "0",
+              "discovered": "1672 年由 Giovanni Cassini 發現",
+              "known": ["土衛五是土星第二大衛星，表面以水冰為主。", "其表面有古老撞擊坑與明亮的撞擊噴出物。"],
+              "unknown": ["土衛五是否有環仍未確認；早期探測訊號未能證實環的存在。"],
+              "funFacts": ["土衛五的外逸層極稀薄，無法像地球大氣那樣保留。", "土衛五與土星保持潮汐鎖定，因此同一面大致朝向土星。"],
+              "source": {
+                "name": "NASA：土星衛星",
+                "url": "https://science.nasa.gov/saturn/moons/",
+                "accessed": "參考 NASA 土星衛星資料"
+              }
+            },
+            {
+              "id": "iapetus",
+              "name": "土衛八（Iapetus）",
+              "kind": "土星天然衛星",
+              "visual": "moon",
+              "summary": "一面明亮、一面暗黑，赤道還有突出的山脊。",
+              "description": "土衛八最醒目的特徵是亮暗兩半球的強烈反差，以及沿赤道延伸的山脊。造成這些特徵的物質來源與形成過程仍有多種研究解釋。",
+              "diameter": "約 1,469 公里",
+              "mass": "約 1.81 × 10²¹ 公斤",
+              "distanceFromParent": "平均約 3,560,820 公里",
+              "orbitalPeriod": "約 79.3 天",
+              "rotationPeriod": "約 79.3 天，與公轉同步",
+              "atmosphere": "無可測得的大氣",
+              "temperature": "明亮區約 −143 °C；暗區更暖",
+              "moons": "0",
+              "discovered": "1671 年由 Giovanni Cassini 發現",
+              "known": ["土衛八的前導半球較暗，背向運行的一側較亮。", "其赤道有一條高聳、近乎環繞全星的山脊。"],
+              "unknown": ["亮暗物質的來源與赤道山脊的形成機制仍未定論。"],
+              "funFacts": ["土衛八的明暗對比讓它在望遠鏡中時亮時暗。", "赤道山脊局部高度可達十多公里。"],
+              "source": {
+                "name": "NASA：土星衛星",
+                "url": "https://science.nasa.gov/saturn/moons/",
+                "accessed": "特徵由卡西尼號影像與測量研究"
+              }
+            },
+            {
+              "id": "titania",
+              "name": "天衛三（Titania）",
+              "kind": "天王星天然衛星",
+              "visual": "moon",
+              "summary": "天王星最大的衛星，表面可見峽谷與撞擊坑。",
+              "description": "天衛三是天王星最大的天然衛星，由冰與岩石混合構成。旅行者 2 號於 1986 年飛掠天王星系統，拍到其表面的撞擊坑與大型裂谷。",
+              "diameter": "約 1,578 公里",
+              "mass": "約 3.42 × 10²¹ 公斤",
+              "distanceFromParent": "平均約 435,910 公里",
+              "orbitalPeriod": "約 8.71 天",
+              "rotationPeriod": "約 8.71 天，與公轉同步",
+              "atmosphere": "尚未確認有大氣",
+              "temperature": "表面約 −200 °C",
+              "moons": "0",
+              "discovered": "1787 年由 William Herschel 發現",
+              "known": ["天衛三是天王星最大的衛星。", "旅行者 2 號觀測到其表面有大型裂谷與撞擊地貌。"],
+              "unknown": ["天衛三內部是否曾有液態水層，目前尚不確定。"],
+              "funFacts": ["天王星衛星多以莎士比亞與 Alexander Pope 作品角色命名。", "天衛三約每 8.7 天繞天王星一圈。"],
+              "source": {
+                "name": "NASA：天王星衛星",
+                "url": "https://science.nasa.gov/uranus/moons/",
+                "accessed": "參考 NASA 天王星衛星資料"
+              }
+            },
+            {
+              "id": "miranda",
+              "name": "天衛五（Miranda）",
+              "kind": "天王星天然衛星",
+              "visual": "moon",
+              "summary": "表面呈現巨大斷崖、峽谷與多種地形拼接的奇特世界。",
+              "description": "天衛五是天王星的小型冰質衛星，表面有極深峽谷與稱為科羅娜的複雜地貌。其地形形成原因尚未完全釐清，可能涉及內部活動與撞擊。",
+              "diameter": "約 472 公里",
+              "mass": "約 6.59 × 10¹⁹ 公斤",
+              "distanceFromParent": "平均約 129,900 公里",
+              "orbitalPeriod": "約 1.41 天",
+              "rotationPeriod": "約 1.41 天，與公轉同步",
+              "atmosphere": "無可測得的大氣",
+              "temperature": "表面約 −190 °C",
+              "moons": "0",
+              "discovered": "1948 年由 Gerard Kuiper 發現",
+              "known": ["旅行者 2 號拍攝到天衛五上巨大的斷崖與不規則地形。", "天衛五的重力很弱，形狀並非完全球形。"],
+              "unknown": ["天衛五表面不同地形如何形成與拼接仍有爭論。"],
+              "funFacts": ["天衛五維洛娜斷崖高達約 20 公里，是已知太陽系最高峭壁之一。", "天衛五的直徑不到地球月球的六分之一。"],
+              "source": {
+                "name": "NASA：天王星衛星",
+                "url": "https://science.nasa.gov/uranus/moons/",
+                "accessed": "參考 NASA 天王星衛星資料"
+              }
+            },
+            {
+              "id": "triton",
+              "name": "海衛一（Triton）",
+              "kind": "海王星天然衛星",
+              "visual": "moon",
+              "summary": "沿逆行軌道繞海王星運行，表面極寒且有氮氣噴流。",
+              "description": "海衛一是海王星最大的衛星，沿與海王星自轉相反的方向運行，顯示它可能曾是被捕獲的柯伊伯帶天體。旅行者 2 號觀測到其表面有活躍噴流。",
+              "diameter": "約 2,707 公里",
+              "mass": "約 2.14 × 10²² 公斤",
+              "distanceFromParent": "平均約 354,760 公里",
+              "orbitalPeriod": "約 5.88 天（逆行）",
+              "rotationPeriod": "約 5.88 天，與公轉同步",
+              "atmosphere": "極稀薄氮氣大氣，含少量甲烷",
+              "temperature": "表面約 −235 °C",
+              "moons": "0",
+              "discovered": "1846 年由 William Lassell 發現",
+              "known": ["海衛一是太陽系大型衛星中少數沿逆行軌道運行的例子。", "旅行者 2 號在其表面觀測到氮氣噴流。"],
+              "unknown": ["海衛一的內部海洋是否存在，以及捕獲後的演化仍待研究。"],
+              "funFacts": ["海衛一是太陽系最冷的天體表面之一。", "海衛一可能在遙遠未來逐漸接近海王星並形成環。"],
+              "source": {
+                "name": "NASA：海王星衛星",
+                "url": "https://science.nasa.gov/neptune/moons/",
+                "accessed": "參考 NASA 海王星衛星資料"
+              }
+            },
+            {
+              "id": "charon",
+              "name": "卡戎",
+              "kind": "冥王星天然衛星",
+              "visual": "moon",
+              "summary": "冥王星最大的衛星，兩者共同繞著系統外的重心運行。",
+              "description": "卡戎是冥王星最大的衛星，直徑約為冥王星的一半。由於冥王星與卡戎的共同重心位於冥王星外部，兩者常被視為一組特殊的雙矮行星系統。",
+              "diameter": "約 1,212 公里",
+              "mass": "約 1.59 × 10²¹ 公斤",
+              "distanceFromParent": "平均約 19,600 公里",
+              "orbitalPeriod": "約 6.39 天",
+              "rotationPeriod": "約 6.39 天；與冥王星彼此潮汐鎖定",
+              "atmosphere": "尚未確認有持續大氣",
+              "temperature": "表面約 −220 °C",
+              "moons": "0",
+              "discovered": "1978 年由 James Christy 發現",
+              "known": ["冥王星與卡戎彼此潮汐鎖定，彼此總以同一面相對。", "新視野號於 2015 年近距離觀測卡戎。"],
+              "unknown": ["卡戎內部結構與早期形成過程仍在研究。"],
+              "funFacts": ["卡戎與冥王星的共同重心位於冥王星表面之外。", "卡戎的北極暗色區域被暱稱為「魔多」。"],
+              "source": {
+                "name": "NASA：冥王星",
+                "url": "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+                "accessed": "參考 NASA 新視野號觀測資料"
+              }
+            }
+          ]
+        },
+        {
+          "id": "dwarf-planets",
+          "name": "矮行星",
+          "type": "未清除軌道鄰域的近球形天體",
+          "visual": "dwarf-planets",
+          "description": "矮行星繞太陽運行，質量足以形成近球形，但尚未清除軌道附近的其他天體。國際天文學聯合會目前正式承認五顆矮行星；此分類收錄它們作為代表。",
+          "bodies": [
+            {
+              "id": "ceres",
+              "name": "穀神星",
+              "kind": "矮行星",
+              "visual": "ceres",
+              "summary": "位於小行星帶，是內太陽系唯一的矮行星。",
+              "description": "穀神星位於火星與木星之間的小行星帶，是該帶最大的天體。NASA 黎明號於 2015 年抵達，成為第一艘造訪矮行星的太空船。",
+              "diameter": "約 940 公里",
+              "mass": "約 9.38 × 10²⁰ 公斤",
+              "distanceFromParent": "平均約 4.13 億公里",
+              "orbitalPeriod": "約 4.6 個地球年",
+              "rotationPeriod": "約 9 小時",
+              "atmosphere": "沒有濃厚大氣；局部觀測到短暫水氣活動",
+              "temperature": "平均約 −105 °C",
+              "moons": "0",
+              "discovered": "1801 年由 Giuseppe Piazzi 發現；2006 年分類為矮行星",
+              "known": [
+                "黎明號在穀神星表面觀測到含鹽沉積與冰的證據。",
+                "穀神星約占小行星帶總質量的四分之一。"
+              ],
+              "unknown": [
+                "穀神星地下是否仍有液態水，以及其內部海洋的狀態，尚未確定。"
+              ],
+              "funFacts": [
+                "穀神星是第一顆被發現的小行星帶天體。",
+                "它曾被視為行星、後來列為小行星，現在分類為矮行星。"
+              ],
+              "source": {
+                "name": "NASA：穀神星",
+                "url": "https://science.nasa.gov/dwarf-planets/ceres/facts/",
+                "accessed": "參考 NASA 穀神星資料"
+              }
+            },
+            {
+              "id": "pluto",
+              "name": "冥王星",
+              "kind": "矮行星",
+              "visual": "pluto",
+              "summary": "柯伊伯帶中的冰質世界，有山脈、冰川與五顆已知衛星。",
+              "description": "冥王星位於海王星軌道外的柯伊伯帶。新視野號於 2015 年飛掠冥王星，觀測到複雜的地貌與以氮為主的稀薄大氣。國際天文學聯合會於 2006 年將它重新分類為矮行星。",
+              "diameter": "約 2,377 公里",
+              "mass": "約 1.30 × 10²² 公斤",
+              "distanceFromParent": "平均約 59 億公里",
+              "orbitalPeriod": "約 248 個地球年",
+              "rotationPeriod": "約 6.4 個地球日（逆行）",
+              "atmosphere": "稀薄大氣，主要為氮，也含甲烷與一氧化碳",
+              "temperature": "平均約 −232 °C",
+              "moons": "5",
+              "discovered": "1930 年由 Clyde Tombaugh 發現；2006 年分類為矮行星",
+              "known": [
+                "冥王星最大的衛星卡戎約有冥王星一半大小，兩者常被描述為雙矮行星系統。",
+                "新視野號於 2015 年首次近距離觀測冥王星。"
+              ],
+              "unknown": [
+                "冥王星地下是否存在液態水層，以及其長期地質活動如何維持，仍在研究中。"
+              ],
+              "funFacts": [
+                "冥王星的一天約等於地球的 6.4 天。",
+                "冥王星繞太陽一圈的時間比人類有記錄的歷史長得多。"
+              ],
+              "source": {
+                "name": "NASA：冥王星",
+                "url": "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+                "accessed": "參考 NASA 冥王星資料"
+              }
+            },
+            {
+              "id": "haumea",
+              "name": "妊神星",
+              "kind": "矮行星",
+              "visual": "haumea",
+              "summary": "快速自轉使它呈細長形狀，也是已知具有環的矮行星。",
+              "description": "妊神星是柯伊伯帶中的矮行星，具有兩顆已知衛星與一圈窄環。它快速自轉，形狀因此明顯拉長，直徑數值會因測量方向不同而變化。",
+              "diameter": "平均尺度約 1,600 公里；形狀不規則",
+              "mass": "約 4.0 × 10²¹ 公斤",
+              "distanceFromParent": "平均約 64 億公里",
+              "orbitalPeriod": "約 284 個地球年",
+              "rotationPeriod": "約 3.9 小時",
+              "atmosphere": "尚未確認有大氣",
+              "moons": "2",
+              "discovered": "2004 年被觀測發現；2008 年獲正式命名",
+              "known": [
+                "妊神星有兩顆已知衛星，並有一圈窄環。",
+                "妊神星的自轉週期不到 4 小時，是大型天體中自轉很快的例子。"
+              ],
+              "unknown": [
+                "它的精確三軸尺寸與內部組成仍受形狀及觀測模型限制。"
+              ],
+              "funFacts": [
+                "妊神星以夏威夷神話中的生育女神命名。",
+                "它的快速自轉讓外形不像一般球體，而像拉長的橢球。"
+              ],
+              "source": {
+                "name": "NASA：矮行星資料",
+                "url": "https://science.nasa.gov/dwarf-planets/",
+                "accessed": "數值為觀測估計值"
+              }
+            },
+            {
+              "id": "makemake",
+              "name": "鳥神星",
+              "kind": "矮行星",
+              "visual": "makemake",
+              "summary": "柯伊伯帶中的冰質矮行星，表面含有甲烷冰。",
+              "description": "鳥神星是柯伊伯帶中已正式承認的矮行星之一。它極為遙遠且表面寒冷，天文學家透過望遠鏡觀測其亮度、光譜與衛星來推估其性質。",
+              "diameter": "約 1,430 公里",
+              "distanceFromParent": "平均約 68 億公里",
+              "orbitalPeriod": "約 305 個地球年",
+              "rotationPeriod": "約 22.8 小時",
+              "atmosphere": "未偵測到持續的大氣；表面光譜顯示有甲烷冰",
+              "temperature": "約 −239 °C",
+              "moons": "1（已知）",
+              "discovered": "2005 年由團隊觀測發現；2008 年獲正式命名",
+              "known": [
+                "鳥神星有一顆已知衛星，稱為 MK2。",
+                "表面光譜顯示存在甲烷等揮發性冰。"
+              ],
+              "unknown": [
+                "鳥神星的精確質量、內部結構及衛星軌道仍有觀測不確定性。"
+              ],
+              "funFacts": [
+                "鳥神星以復活節島拉帕努伊人的創世神命名。",
+                "它的公轉週期超過三百個地球年。"
+              ],
+              "source": {
+                "name": "NASA：矮行星資料",
+                "url": "https://science.nasa.gov/dwarf-planets/",
+                "accessed": "數值為觀測估計值"
+              }
+            },
+            {
+              "id": "eris",
+              "name": "鬩神星",
+              "kind": "矮行星",
+              "visual": "eris",
+              "summary": "遙遠而寒冷的矮行星，其發現促使天文學家重新討論行星定義。",
+              "description": "鬩神星位於海王星軌道之外，距離太陽比冥王星更遠。它的發現讓天文學界開始更仔細界定行星與矮行星的分類，並有一顆已知衛星。",
+              "diameter": "約 2,326 公里",
+              "mass": "約 1.65 × 10²² 公斤",
+              "distanceFromParent": "平均約 101 億公里",
+              "orbitalPeriod": "約 557 個地球年",
+              "rotationPeriod": "約 25.9 小時",
+              "atmosphere": "目前未確認有持續的大氣",
+              "temperature": "估計約 −230 °C；會隨軌道位置變化",
+              "moons": "1（戴絲諾美亞）",
+              "discovered": "2005 年由團隊觀測發現；2006 年分類為矮行星",
+              "known": [
+                "鬩神星的衛星戴絲諾美亞協助天文學家估算鬩神星質量。",
+                "鬩神星與冥王星都屬於海王星軌道外的矮行星。"
+              ],
+              "unknown": [
+                "鬩神星表面與內部的詳細組成仍難以直接測量。"
+              ],
+              "funFacts": [
+                "鬩神星的發現是 2006 年冥王星重新分類討論的重要背景之一。",
+                "鬩神星繞太陽一圈需要超過五百個地球年。"
+              ],
+              "source": {
+                "name": "NASA：矮行星資料",
+                "url": "https://science.nasa.gov/dwarf-planets/",
+                "accessed": "數值為觀測估計值"
+              }
+            }
+          ]
+        },
+        {
+          "id": "exoplanets",
+          "name": "系外行星",
+          "type": "繞其他恆星運行的行星",
+          "visual": "exoplanets",
+          "description": "系外行星是太陽系以外、繞其他恆星運行的行星。多數距離遙遠，大小、質量與大氣資料常只有部分測量；「位於適居帶」不代表已證實有生命或液態水。",
+          "bodies": [
+            {
+              "id": "proxima-b",
+              "name": "比鄰星 b",
+              "kind": "系外行星／超級地球候選類型",
+              "visual": "exoplanet-rocky",
+              "summary": "繞距離太陽最近恆星運行的行星，可能位於其適居帶。",
+              "description": "比鄰星 b 繞紅矮星比鄰星運行，距離地球約 4.24 光年。它接收的恆星能量使其位於模型定義的適居帶範圍，但目前尚未確認大氣、液態水或生命。",
+              "mass": "最低質量約為地球的 1.3 倍；真實質量可能更高",
+              "distanceFromParent": "約 0.049 天文單位",
+              "orbitalPeriod": "約 11.2 個地球日",
+              "rotationPeriod": "未知",
+              "atmosphere": "尚未確認",
+              "moons": "尚未確認",
+              "discovered": "2016 年以徑向速度法確認",
+              "known": [
+                "比鄰星 b 的最低質量約為地球的 1.3 倍。",
+                "它位於比鄰星的適居帶估計範圍；適居帶只描述可能允許液態水的軌道條件。"
+              ],
+              "unknown": [
+                "目前不知道它是否保有大氣、表面是否有液態水，或是否存在生命。"
+              ],
+              "inferred": [
+                "它可能受到比鄰星潮汐鎖定；這是模型推測，尚非直接觀測確認。"
+              ],
+              "funFacts": [
+                "比鄰星 b 的一年只有約 11.2 個地球日。",
+                "「適居帶」不是生命存在的證據，行星大氣與地質也會影響實際環境。"
+              ],
+              "source": {
+                "name": "NASA：系外行星概覽",
+                "url": "https://science.nasa.gov/exoplanets/",
+                "accessed": "參考 NASA 系外行星資料；行星環境仍未知"
+              }
+            },
+            {
+              "id": "trappist-1e",
+              "name": "TRAPPIST-1 e",
+              "kind": "系外行星／類地行星",
+              "visual": "exoplanet-rocky",
+              "summary": "TRAPPIST-1 系統中接近地球大小的行星，環境仍待觀測確認。",
+              "description": "TRAPPIST-1 e 是一顆繞超冷紅矮星運行的系外行星，位於距離地球約 40 光年的七行星系統中。它的大小與質量可由凌日及其他觀測估算，但是否有大氣或液態水尚未確定。",
+              "diameter": "約為地球的 0.92 倍",
+              "mass": "約為地球的 0.69 倍（觀測估計）",
+              "distanceFromParent": "約 0.029 天文單位",
+              "orbitalPeriod": "約 6.1 個地球日",
+              "rotationPeriod": "未知",
+              "atmosphere": "尚未確認",
+              "moons": "尚未確認",
+              "discovered": "2017 年公布為 TRAPPIST-1 七行星系統成員之一",
+              "known": [
+                "TRAPPIST-1 e 的半徑與質量已由凌日及後續觀測估算。",
+                "它繞一顆超冷紅矮星運行，TRAPPIST-1 系統至少有七顆已知行星。"
+              ],
+              "unknown": [
+                "目前尚未確認 TRAPPIST-1 e 是否有大氣、海洋或生命。"
+              ],
+              "funFacts": [
+                "TRAPPIST-1 e 的一年約 6 個地球日。",
+                "同一個 TRAPPIST-1 系統有多顆大小接近地球的行星。"
+              ],
+              "source": {
+                "name": "NASA：系外行星概覽",
+                "url": "https://science.nasa.gov/exoplanets/",
+                "accessed": "半徑與質量為觀測估計；環境尚未確認"
+              }
+            },
+            {
+              "id": "trappist-1b",
+              "name": "TRAPPIST-1 b",
+              "kind": "系外行星／岩石行星",
+              "visual": "exoplanet-rocky",
+              "summary": "TRAPPIST-1 系統中最靠近恆星的行星，軌道週期約 1.51 天。",
+              "description": "TRAPPIST-1 b 繞一顆距離地球約 40 光年的超冷紅矮星運行。凌日觀測測得其半徑約為地球的 1.12 倍；大氣是否存在仍需謹慎判讀。",
+              "radius": "約為地球的 1.12 倍",
+              "mass": "約為地球的 1.37 倍",
+              "distance": "約 40.5 光年",
+              "distanceFromParent": "約 0.0115 天文單位",
+              "orbitalPeriod": "約 1.51 個地球日",
+              "rotationPeriod": "未知",
+              "atmosphere": "尚未確認",
+              "discovered": "2016 年以凌日法發現",
+              "known": ["NASA 系外行星資料庫列出的半徑約為地球的 1.12 倍。", "它是 TRAPPIST-1 七行星中最靠近母星的一顆。"],
+              "unknown": ["其大氣組成與表面狀態尚未確認。"],
+              "funFacts": ["TRAPPIST-1 b 一年僅約 36 小時。", "它與同系統其他行星一樣，可能受到強烈恆星輻射。"],
+              "source": {
+                "name": "NASA 系外行星資料庫：TRAPPIST-1 b",
+                "url": "https://exoplanetarchive.ipac.caltech.edu/overview/TRAPPIST-1",
+                "accessed": "半徑、質量與週期為資料庫觀測值近似"
+              }
+            },
+            {
+              "id": "trappist-1c",
+              "name": "TRAPPIST-1 c",
+              "kind": "系外行星／岩石行星",
+              "visual": "exoplanet-rocky",
+              "summary": "TRAPPIST-1 系統的第二顆行星，質量接近地球。",
+              "description": "TRAPPIST-1 c 是一顆繞超冷紅矮星運行的近地球大小行星。其大氣觀測未能證實存在濃厚二氧化碳大氣；其他大氣情境仍待觀測。",
+              "radius": "約為地球的 1.10 倍",
+              "mass": "約為地球的 1.31 倍",
+              "distance": "約 40.5 光年",
+              "distanceFromParent": "約 0.0158 天文單位",
+              "orbitalPeriod": "約 2.42 個地球日",
+              "rotationPeriod": "未知",
+              "atmosphere": "尚未確認；部分大氣模型已受觀測限制",
+              "discovered": "2016 年以凌日法發現",
+              "known": ["其半徑與質量來自凌日及系統動力學估算。", "TRAPPIST-1 c 的公轉週期約 2.42 天。"],
+              "unknown": ["雲層、薄大氣或無大氣等情境仍需更多資料區分。"],
+              "funFacts": ["TRAPPIST-1 c 的半徑略大於地球。", "觀測紅外線有助研究這顆行星是否能保留大氣。"],
+              "source": {
+                "name": "NASA 系外行星資料庫：TRAPPIST-1",
+                "url": "https://exoplanetarchive.ipac.caltech.edu/overview/TRAPPIST-1",
+                "accessed": "參考 NASA Exoplanet Archive"
+              }
+            },
+            {
+              "id": "trappist-1d",
+              "name": "TRAPPIST-1 d",
+              "kind": "系外行星／岩石行星",
+              "visual": "exoplanet-rocky",
+              "summary": "TRAPPIST-1 系統中的小型行星，公轉週期約四天。",
+              "description": "TRAPPIST-1 d 的半徑小於地球，質量也較小。它接收的恆星能量取決於其大氣與雲層條件；目前尚不能由軌道直接判定表面是否適居。",
+              "radius": "約為地球的 0.79 倍",
+              "mass": "約為地球的 0.39 倍",
+              "distance": "約 40.5 光年",
+              "distanceFromParent": "約 0.0223 天文單位",
+              "orbitalPeriod": "約 4.05 個地球日",
+              "rotationPeriod": "未知",
+              "atmosphere": "尚未確認",
+              "discovered": "2016 年以凌日法發現",
+              "known": ["TRAPPIST-1 d 的半徑與質量約為地球的 0.79 與 0.39 倍。", "它是同系統七顆已確認行星之一。"],
+              "unknown": ["大氣是否存在以及表面溫度目前均未知。"],
+              "funFacts": ["TRAPPIST-1 d 的大小介於火星與地球之間。", "它繞母星一圈只需約四個地球日。"],
+              "source": {
+                "name": "NASA 系外行星資料庫：TRAPPIST-1",
+                "url": "https://exoplanetarchive.ipac.caltech.edu/overview/TRAPPIST-1",
+                "accessed": "參考 NASA Exoplanet Archive"
+              }
+            },
+            {
+              "id": "trappist-1f",
+              "name": "TRAPPIST-1 f",
+              "kind": "系外行星／岩石行星",
+              "visual": "exoplanet-rocky",
+              "summary": "TRAPPIST-1 系統中較外側的近地球大小行星。",
+              "description": "TRAPPIST-1 f 位於 TRAPPIST-1 系統較外側的軌道。它被列為適居帶研究目標之一，但適居帶只是依恆星能量估計的軌道範圍，並不證明行星有液態水或生命。",
+              "radius": "約為地球的 1.05 倍",
+              "mass": "約為地球的 1.04 倍",
+              "distance": "約 40.5 光年",
+              "distanceFromParent": "約 0.0385 天文單位",
+              "orbitalPeriod": "約 9.21 個地球日",
+              "rotationPeriod": "未知",
+              "atmosphere": "尚未確認",
+              "discovered": "2017 年公布為 TRAPPIST-1 系統行星",
+              "known": ["半徑與質量估計接近地球。", "TRAPPIST-1 f 位於適居帶研究範圍；其實際氣候仍取決於大氣。"],
+              "unknown": ["目前尚未確認其大氣、表面液態水或是否適合生命。"],
+              "funFacts": ["TRAPPIST-1 f 的一年約九個地球日。", "它與六顆鄰居行星都繞同一顆小型紅矮星運行。"],
+              "source": {
+                "name": "NASA 系外行星資料庫：TRAPPIST-1",
+                "url": "https://exoplanetarchive.ipac.caltech.edu/overview/TRAPPIST-1",
+                "accessed": "參考 NASA Exoplanet Archive"
+              }
+            },
+            {
+              "id": "trappist-1g",
+              "name": "TRAPPIST-1 g",
+              "kind": "系外行星／岩石行星",
+              "visual": "exoplanet-rocky",
+              "summary": "TRAPPIST-1 系統中半徑略大於地球的外側行星。",
+              "description": "TRAPPIST-1 g 是七行星系統中較外側的行星之一。現有觀測可估算其半徑、質量與軌道，但無法直接確認其表面海洋或生命。",
+              "radius": "約為地球的 1.13 倍",
+              "mass": "約為地球的 1.32 倍",
+              "distance": "約 40.5 光年",
+              "distanceFromParent": "約 0.0469 天文單位",
+              "orbitalPeriod": "約 12.35 個地球日",
+              "rotationPeriod": "未知",
+              "atmosphere": "尚未確認",
+              "discovered": "2017 年公布為 TRAPPIST-1 系統行星",
+              "known": ["TRAPPIST-1 g 的半徑與質量約為地球的 1.13 與 1.32 倍。", "它繞紅矮星運行，軌道週期約 12.35 天。"],
+              "unknown": ["其大氣組成、雲層與表面條件仍未知。"],
+              "funFacts": ["TRAPPIST-1 g 比地球大一些，但一年只有約 12 天。", "多行星的軌道共振有助研究此系統的形成與演化。"],
+              "source": {
+                "name": "NASA 系外行星資料庫：TRAPPIST-1",
+                "url": "https://exoplanetarchive.ipac.caltech.edu/overview/TRAPPIST-1",
+                "accessed": "參考 NASA Exoplanet Archive"
+              }
+            },
+            {
+              "id": "trappist-1h",
+              "name": "TRAPPIST-1 h",
+              "kind": "系外行星／岩石行星",
+              "visual": "exoplanet-rocky",
+              "summary": "TRAPPIST-1 七行星中最外側的一顆，公轉週期約 18.8 天。",
+              "description": "TRAPPIST-1 h 是該系統已確認行星中最外側的一顆。它的半徑不到地球，接收的恆星能量較低；大氣與地表狀態尚未確認。",
+              "radius": "約為地球的 0.76 倍",
+              "mass": "約為地球的 0.33 倍",
+              "distance": "約 40.5 光年",
+              "distanceFromParent": "約 0.0619 天文單位",
+              "orbitalPeriod": "約 18.77 個地球日",
+              "rotationPeriod": "未知",
+              "atmosphere": "尚未確認",
+              "discovered": "2017 年公布為 TRAPPIST-1 系統行星",
+              "known": ["TRAPPIST-1 h 是該系統七顆已確認行星中最外側的一顆。", "它的半徑約為地球的 0.76 倍。"],
+              "unknown": ["其大氣、內部組成與表面環境仍未知。"],
+              "funFacts": ["TRAPPIST-1 h 繞母星一圈約需 19 天。", "同一個系統中的行星軌道彼此靠近，排列緊密。"],
+              "source": {
+                "name": "NASA 系外行星資料庫：TRAPPIST-1",
+                "url": "https://exoplanetarchive.ipac.caltech.edu/overview/TRAPPIST-1",
+                "accessed": "參考 NASA Exoplanet Archive"
+              }
+            },
+            {
+              "id": "kepler-186f",
+              "name": "Kepler-186 f",
+              "kind": "系外行星／類地大小行星",
+              "visual": "exoplanet-rocky",
+              "summary": "第一批在恆星適居帶內發現、大小接近地球的系外行星之一。",
+              "description": "Kepler-186 f 繞一顆紅矮星運行，距離地球約 500 光年。它的半徑約為地球的 1.17 倍，軌道位於恆星適居帶估計範圍；行星質量與大氣仍未充分測得。",
+              "radius": "約為地球的 1.17 倍",
+              "distanceFromParent": "約 0.43 天文單位",
+              "orbitalPeriod": "約 130 個地球日",
+              "rotationPeriod": "未知",
+              "atmosphere": "尚未確認",
+              "moons": "尚未確認",
+              "discovered": "2014 年由 NASA 克卜勒任務公布",
+              "known": [
+                "Kepler-186 f 的半徑約為地球的 1.17 倍。",
+                "它位於紅矮星 Kepler-186 的適居帶估計範圍。"
+              ],
+              "unknown": [
+                "它的質量、表面組成與大氣狀態尚未被直接確認。",
+                "適居帶位置本身不能證明行星上存在液態水或生命。"
+              ],
+              "funFacts": [
+                "Kepler-186 f 距離地球約 500 光年。",
+                "它繞行的恆星比太陽小、也比太陽冷。"
+              ],
+              "source": {
+                "name": "NASA：系外行星概覽",
+                "url": "https://science.nasa.gov/exoplanets/",
+                "accessed": "參考 NASA 系外行星資料；環境尚未確認"
+              }
+            },
+            {
+              "id": "51-pegasi-b",
+              "name": "飛馬座 51 b",
+              "kind": "系外行星／熱木星",
+              "visual": "exoplanet-gas",
+              "summary": "第一顆繞類太陽恆星發現的系外行星。",
+              "description": "飛馬座 51 b 是一顆緊密繞行母星的巨行星。1995 年的發現以恆星的徑向速度變化為證據，開啟了現代系外行星研究的重要階段。",
+              "mass": "最低質量約為木星的 0.46 倍（徑向速度法測得的下限）",
+              "distance": "約 50 光年",
+              "distanceFromParent": "約 0.05 天文單位",
+              "orbitalPeriod": "約 4.23 個地球日",
+              "atmosphere": "大氣成分仍在研究",
+              "discovered": "1995 年以徑向速度法發現",
+              "known": ["它是第一顆被確認繞類太陽恆星運行的系外行星。", "徑向速度法測得的最低質量約為木星的 0.46 倍；真實質量取決於軌道傾角。"],
+              "unknown": ["其雲層與大氣細節仍需更多觀測。"],
+              "funFacts": ["它的發現讓天文學家知道，巨行星也能非常靠近母星。", "這類緊密軌道的巨行星後來被稱為熱木星。"],
+              "source": { "name": "NASA 系外行星資料庫", "url": "https://exoplanetarchive.ipac.caltech.edu/", "accessed": "數值為資料庫與文獻估計近似" }
+            },
+            {
+              "id": "55-cancri-e",
+              "name": "巨蟹座 55 e",
+              "kind": "系外行星／超級地球",
+              "visual": "exoplanet-rocky",
+              "summary": "一顆極靠近母星、可能覆有熔岩的高溫行星。",
+              "description": "巨蟹座 55 e 是一顆高溫近地球大小行星，繞行一顆距離地球約 41 光年的恆星。太空望遠鏡觀測已研究其熱輻射與大氣可能性，但表面仍無法直接成像。",
+              "radius": "約為地球的 1.9 倍",
+              "mass": "約為地球的 8 倍",
+              "distance": "約 41 光年",
+              "distanceFromParent": "約 0.016 天文單位",
+              "orbitalPeriod": "約 0.74 個地球日",
+              "atmosphere": "可能存在大氣的證據仍在研究",
+              "discovered": "2004 年公布；後續確認其凌日",
+              "known": ["它的軌道週期不到一個地球日。", "觀測到的高溫與近距離軌道相符。"],
+              "unknown": ["熔岩海洋與大氣狀態尚不能視為已直接確認。"],
+              "funFacts": ["它的一年約 18 小時。", "它是研究高溫岩石行星的代表目標之一。"],
+              "source": { "name": "NASA 系外行星資料庫", "url": "https://exoplanetarchive.ipac.caltech.edu/", "accessed": "數值為資料庫與文獻估計近似" }
+            },
+            {
+              "id": "gj-1214-b",
+              "name": "GJ 1214 b",
+              "kind": "系外行星／次海王星",
+              "visual": "exoplanet-ocean",
+              "summary": "一顆常用來研究小型行星大氣的近距離系外行星。",
+              "description": "GJ 1214 b 位於一顆紅矮星周圍，大小介於地球與海王星之間。它的大氣具有高空雲或霧層，讓觀測底層大氣成分變得困難。",
+              "radius": "約為地球的 2.7 倍",
+              "mass": "約為地球的 8 倍",
+              "distance": "約 48 光年",
+              "distanceFromParent": "約 0.015 天文單位",
+              "orbitalPeriod": "約 1.58 個地球日",
+              "atmosphere": "觀測到高空雲／霧；成分仍受限制",
+              "discovered": "2009 年以凌日法發現",
+              "known": ["GJ 1214 b 是次海王星研究的代表案例。", "高空氣膠會遮蔽部分大氣光譜訊號。"],
+              "unknown": ["其深層大氣組成與內部結構仍未確定。"],
+              "funFacts": ["它的一年約 38 小時。", "雲霧使這顆行星的大氣像隔著面紗一樣難以觀測。"],
+              "source": { "name": "NASA 系外行星資料庫", "url": "https://exoplanetarchive.ipac.caltech.edu/", "accessed": "數值為資料庫與文獻估計近似" }
+            },
+            {
+              "id": "hd-189733-b",
+              "name": "HD 189733 b",
+              "kind": "系外行星／熱木星",
+              "visual": "exoplanet-gas",
+              "summary": "距離地球相對近、曾多次進行大氣觀測的熱木星。",
+              "description": "HD 189733 b 是一顆氣體巨行星，緊密繞行一顆橘矮星。其大氣觀測顯示有水蒸氣等分子訊號與高空雲霧；常見的「玻璃雨」描述是模型推測，不是直接拍到的天氣。",
+              "radius": "約為木星的 1.14 倍",
+              "mass": "約為木星的 1.13 倍",
+              "distance": "約 64 光年",
+              "distanceFromParent": "約 0.031 天文單位",
+              "orbitalPeriod": "約 2.22 個地球日",
+              "atmosphere": "觀測到多種分子訊號與雲霧",
+              "discovered": "2005 年以凌日與徑向速度法確認",
+              "known": ["它是系外行星大氣研究的重要觀測目標。", "這顆行星的溫度與風場極端，相關細節仍持續研究。"],
+              "unknown": ["雲層的精確組成與局部天氣仍未完全確定。"],
+              "funFacts": ["「玻璃雨」是根據雲層與風場條件提出的可能情境。", "它繞母星一圈只需約兩天多。"],
+              "source": { "name": "NASA 系外行星資料庫", "url": "https://exoplanetarchive.ipac.caltech.edu/", "accessed": "數值為資料庫與文獻估計近似" }
+            },
+            {
+              "id": "hd-209458-b",
+              "name": "HD 209458 b",
+              "kind": "系外行星／熱木星",
+              "visual": "exoplanet-gas",
+              "summary": "第一批被觀測到凌日、並偵測出大氣的系外行星之一。",
+              "description": "HD 209458 b 是一顆熱木星。它凌過母星時造成的微小亮度變化，讓天文學家能估計其大小，並透過光譜研究高層大氣。",
+              "radius": "約為木星的 1.36 倍",
+              "mass": "約為木星的 0.69 倍",
+              "distance": "約 150 光年",
+              "distanceFromParent": "約 0.047 天文單位",
+              "orbitalPeriod": "約 3.52 個地球日",
+              "atmosphere": "已觀測到大氣外逸等現象",
+              "discovered": "1999 年確認凌日",
+              "known": ["它是最早被確認凌日的系外行星之一。", "凌日光譜曾用來研究其大氣成分。"],
+              "unknown": ["大氣長期演化與雲層細節仍在研究。"],
+              "funFacts": ["行星凌日會使恆星亮度出現週期性微降。", "它曾是系外行星大氣研究的開創性目標。"],
+              "source": { "name": "NASA 系外行星資料庫", "url": "https://exoplanetarchive.ipac.caltech.edu/", "accessed": "數值為資料庫與文獻估計近似" }
+            },
+            {
+              "id": "k2-18-b",
+              "name": "K2-18 b",
+              "kind": "系外行星／次海王星",
+              "visual": "exoplanet-ocean",
+              "summary": "位於母星適居帶研究區域、已進行大氣光譜觀測的行星。",
+              "description": "K2-18 b 是一顆比地球大的行星，繞紅矮星運行。韋伯太空望遠鏡的觀測用於研究其大氣分子，但遠不足以證實海洋、生命或特定表面情境。",
+              "radius": "約為地球的 2.6 倍",
+              "mass": "約為地球的 8.6 倍",
+              "distance": "約 124 光年",
+              "distanceFromParent": "約 0.14 天文單位",
+              "orbitalPeriod": "約 32.9 個地球日",
+              "atmosphere": "觀測到含碳分子訊號；解讀仍在研究",
+              "discovered": "2015 年以凌日法發現",
+              "known": ["它位於依母星能量估計的適居帶範圍。", "大氣光譜已有分子訊號的觀測與分析。"],
+              "unknown": ["是否存在海洋、生命或可居住表面均未確認。"],
+              "funFacts": ["它比地球大，可能屬於次海王星類型。", "適居帶位置本身並不代表行星適合生命。"],
+              "source": { "name": "NASA 系外行星資料庫", "url": "https://exoplanetarchive.ipac.caltech.edu/", "accessed": "數值為資料庫與文獻估計近似" }
+            },
+            {
+              "id": "kepler-10-b",
+              "name": "Kepler-10 b",
+              "kind": "系外行星／岩石行星",
+              "visual": "exoplanet-rocky",
+              "summary": "克卜勒任務發現的早期岩石系外行星代表之一。",
+              "description": "Kepler-10 b 是一顆緊密繞行類太陽恆星的岩石行星。其短週期與高溫環境使它不適合與地球環境直接類比。",
+              "radius": "約為地球的 1.47 倍",
+              "mass": "約為地球的 3.7 倍",
+              "distance": "約 600 光年",
+              "distanceFromParent": "約 0.017 天文單位",
+              "orbitalPeriod": "約 0.84 個地球日",
+              "atmosphere": "尚未確認",
+              "discovered": "2011 年以凌日與徑向速度資料確認",
+              "known": ["它是克卜勒任務早期確認的岩石行星之一。", "它的軌道非常靠近母星。"],
+              "unknown": ["表面是否有熔岩及是否保留大氣仍未直接確認。"],
+              "funFacts": ["Kepler-10 b 的一年不到一天。", "它繞行的是一顆類太陽恆星，而非紅矮星。"],
+              "source": { "name": "NASA 系外行星資料庫", "url": "https://exoplanetarchive.ipac.caltech.edu/", "accessed": "數值為資料庫與文獻估計近似" }
+            },
+            {
+              "id": "kepler-16-b",
+              "name": "Kepler-16 b",
+              "kind": "系外行星／環雙星行星",
+              "visual": "exoplanet-gas",
+              "summary": "一顆同時繞兩顆恆星運行的行星，常被形容為雙日落世界。",
+              "description": "Kepler-16 b 繞行一對互相公轉的恆星。這類行星稱為環雙星行星；「雙日落」是依軌道幾何得出的可能景象，實際天空視角會隨位置改變。",
+              "radius": "約為土星的 0.75 倍",
+              "mass": "約為木星的 0.33 倍",
+              "distance": "約 245 光年",
+              "distanceFromParent": "約 0.70 天文單位",
+              "orbitalPeriod": "約 229 個地球日",
+              "atmosphere": "尚未確認",
+              "discovered": "2011 年由克卜勒任務公布",
+              "known": ["Kepler-16 b 同時繞行一對雙星。", "它是著名的環雙星行星案例。"],
+              "unknown": ["其雲層與大氣細節尚未確認。"],
+              "funFacts": ["它的母星是兩顆恆星，而非單一太陽。", "兩顆恆星在行星天空中的位置會隨時間變化。"],
+              "source": { "name": "NASA 系外行星資料庫", "url": "https://exoplanetarchive.ipac.caltech.edu/", "accessed": "數值為資料庫與文獻估計近似" }
+            },
+            {
+              "id": "kepler-22-b",
+              "name": "Kepler-22 b",
+              "kind": "系外行星／超級地球候選類型",
+              "visual": "exoplanet-ocean",
+              "summary": "第一批在類太陽恆星適居帶內確認的行星之一。",
+              "description": "Kepler-22 b 繞一顆類太陽恆星運行，軌道落在適居帶估計範圍。其半徑大於地球，質量及組成尚未充分測定，不能據此斷定它是海洋世界。",
+              "radius": "約為地球的 2.1 倍",
+              "distance": "約 635 光年",
+              "distanceFromParent": "約 0.85 天文單位",
+              "orbitalPeriod": "約 290 個地球日",
+              "atmosphere": "尚未確認",
+              "discovered": "2011 年由克卜勒任務公布",
+              "known": ["它的軌道位於母星適居帶估計範圍。", "它的半徑約為地球的兩倍。"],
+              "unknown": ["質量、組成、大氣與表面液態水皆未確認。"],
+              "funFacts": ["其公轉週期與地球一年相近。", "「適居帶」描述的是能量條件範圍，不是生命證據。"],
+              "source": { "name": "NASA 系外行星資料庫", "url": "https://exoplanetarchive.ipac.caltech.edu/", "accessed": "數值為資料庫與文獻估計近似" }
+            },
+            {
+              "id": "kepler-452-b",
+              "name": "Kepler-452 b",
+              "kind": "系外行星／超級地球候選類型",
+              "visual": "exoplanet-rocky",
+              "summary": "一顆繞較年長類太陽恆星運行的長週期系外行星。",
+              "description": "Kepler-452 b 的半徑約為地球的 1.6 倍，繞行一顆類太陽恆星。它常被拿來與地球比較，但其質量、大氣與表面條件仍未確認。",
+              "radius": "約為地球的 1.6 倍",
+              "distance": "約 1,800 光年",
+              "distanceFromParent": "約 1 天文單位",
+              "orbitalPeriod": "約 385 個地球日",
+              "atmosphere": "尚未確認",
+              "discovered": "2015 年由克卜勒任務公布",
+              "known": ["其公轉週期約 385 天。", "它繞行的恆星與太陽相似，但恆星與行星參數仍有不確定性。"],
+              "unknown": ["行星質量、真實組成與表面環境未知。"],
+              "funFacts": ["它的公轉週期與地球一年相近。", "與地球大小或軌道相似，不能證明其環境相同。"],
+              "source": { "name": "NASA 系外行星資料庫", "url": "https://exoplanetarchive.ipac.caltech.edu/", "accessed": "數值為資料庫與文獻估計近似" }
+            },
+            {
+              "id": "kepler-62-f",
+              "name": "Kepler-62 f",
+              "kind": "系外行星／超級地球候選類型",
+              "visual": "exoplanet-rocky",
+              "summary": "一顆位於較冷恆星適居帶外側的系外行星。",
+              "description": "Kepler-62 f 是一顆半徑大於地球、繞行 K 型恆星的行星。其軌道位置被用於適居性模型研究；是否有大氣或液態水尚無直接證據。",
+              "radius": "約為地球的 1.4 倍",
+              "distance": "約 980 光年",
+              "distanceFromParent": "約 0.72 天文單位",
+              "orbitalPeriod": "約 267 個地球日",
+              "atmosphere": "尚未確認",
+              "discovered": "2013 年由克卜勒任務公布",
+              "known": ["Kepler-62 f 的半徑與軌道週期來自凌日觀測。", "它繞行比太陽稍冷的恆星。"],
+              "unknown": ["質量、大氣、海洋與實際表面溫度仍未知。"],
+              "funFacts": ["科學家用不同大氣模型測試它可能的氣候。", "模型研究不等於已觀測到行星表面海洋。"],
+              "source": { "name": "NASA 系外行星資料庫", "url": "https://exoplanetarchive.ipac.caltech.edu/", "accessed": "數值為資料庫與文獻估計近似" }
+            },
+            {
+              "id": "lhs-1140-b",
+              "name": "LHS 1140 b",
+              "kind": "系外行星／超級地球",
+              "visual": "exoplanet-rocky",
+              "summary": "一顆近距離紅矮星行星，也是大氣研究目標。",
+              "description": "LHS 1140 b 是一顆較地球更大的行星，繞行一顆紅矮星。望遠鏡觀測已用於限制其大氣模型；任何海洋或適居表面說法仍屬待驗證假說。",
+              "radius": "約為地球的 1.7 倍",
+              "mass": "約為地球的 5.6 倍",
+              "distance": "約 49 光年",
+              "distanceFromParent": "約 0.09 天文單位",
+              "orbitalPeriod": "約 24.7 個地球日",
+              "atmosphere": "仍在觀測與模型比較中",
+              "discovered": "2017 年以凌日法發現",
+              "known": ["它距地球約 49 光年，是相對近距離的凌日行星。", "其質量與半徑可用來估算平均密度。"],
+              "unknown": ["大氣組成與表面是否有液態水尚未確認。"],
+              "funFacts": ["它的母星比太陽小且冷。", "近距離讓後續大氣觀測較有機會取得訊號。"],
+              "source": { "name": "NASA 系外行星資料庫", "url": "https://exoplanetarchive.ipac.caltech.edu/", "accessed": "數值為資料庫與文獻估計近似" }
+            },
+            {
+              "id": "toi-700-d",
+              "name": "TOI-700 d",
+              "kind": "系外行星／地球大小行星",
+              "visual": "exoplanet-rocky",
+              "summary": "一顆位於紅矮星適居帶研究區域的地球大小行星。",
+              "description": "TOI-700 d 是 TESS 任務發現的地球大小系外行星，繞行一顆紅矮星。其軌道位置適合進行氣候模型研究，但目前沒有已確認的大氣或生命證據。",
+              "radius": "約為地球的 1.1 倍",
+              "distance": "約 100 光年",
+              "distanceFromParent": "約 0.16 天文單位",
+              "orbitalPeriod": "約 37.4 個地球日",
+              "atmosphere": "尚未確認",
+              "discovered": "2020 年由 TESS 任務公布",
+              "known": ["它的大小與軌道週期由凌日觀測估算。", "其軌道落在適居帶研究範圍。"],
+              "unknown": ["大氣與地表狀況尚未測定，生命也無證據。"],
+              "funFacts": ["TOI-700 系統還有其他已知行星。", "適居帶模型取決於大氣、雲層等尚未測得的因素。"],
+              "source": { "name": "NASA 系外行星資料庫", "url": "https://exoplanetarchive.ipac.caltech.edu/", "accessed": "數值為資料庫與文獻估計近似" }
+            },
+            {
+              "id": "wasp-12-b",
+              "name": "WASP-12 b",
+              "kind": "系外行星／超熱木星",
+              "visual": "exoplanet-gas",
+              "summary": "一顆極靠近母星、受到強烈潮汐作用的熱木星。",
+              "description": "WASP-12 b 是一顆超熱木星，軌道非常靠近母星，受到強烈加熱與潮汐作用。觀測顯示它可能正在失去部分大氣，但細節仍需模型與後續觀測。",
+              "radius": "約為木星的 1.9 倍",
+              "mass": "約為木星的 1.4 倍",
+              "distance": "約 1,400 光年",
+              "distanceFromParent": "約 0.023 天文單位",
+              "orbitalPeriod": "約 1.09 個地球日",
+              "atmosphere": "有大氣外逸與高溫研究證據",
+              "discovered": "2008 年以凌日法確認",
+              "known": ["它的軌道非常靠近母星。", "潮汐交互作用可能造成行星形狀與大氣演化的影響。"],
+              "unknown": ["大氣流失速率與最終演化仍有不確定性。"],
+              "funFacts": ["它繞母星一圈只需約 26 小時。", "母星的潮汐力可能使行星略呈橢圓。"],
+              "source": { "name": "NASA 系外行星資料庫", "url": "https://exoplanetarchive.ipac.caltech.edu/", "accessed": "數值為資料庫與文獻估計近似" }
+            },
+            {
+              "id": "wasp-39-b",
+              "name": "WASP-39 b",
+              "kind": "系外行星／熱土星",
+              "visual": "exoplanet-gas",
+              "summary": "韋伯太空望遠鏡進行大氣光譜觀測的重要行星。",
+              "description": "WASP-39 b 是一顆低密度氣體巨行星。韋伯太空望遠鏡的凌日光譜偵測到二氧化碳及其他大氣成分訊號，展示了研究系外行星大氣的能力。",
+              "radius": "約為木星的 1.27 倍",
+              "mass": "約為木星的 0.28 倍",
+              "distance": "約 700 光年",
+              "distanceFromParent": "約 0.048 天文單位",
+              "orbitalPeriod": "約 4.06 個地球日",
+              "atmosphere": "光譜觀測到多種分子訊號",
+              "discovered": "2011 年以凌日法發現",
+              "known": ["WASP-39 b 是韋伯太空望遠鏡系外行星大氣研究目標。", "凌日光譜可分析恆星光穿過行星大氣後的變化。"],
+              "unknown": ["雲層分布及大氣長期變化仍在研究。"],
+              "funFacts": ["韋伯觀測曾在其大氣光譜辨認出二氧化碳訊號。", "它的密度低於木星。"],
+              "source": { "name": "NASA 系外行星資料庫", "url": "https://exoplanetarchive.ipac.caltech.edu/", "accessed": "數值為資料庫與文獻估計近似" }
+            },
+            {
+              "id": "wasp-96-b",
+              "name": "WASP-96 b",
+              "kind": "系外行星／熱木星",
+              "visual": "exoplanet-gas",
+              "summary": "韋伯太空望遠鏡早期公開的系外行星大氣光譜目標。",
+              "description": "WASP-96 b 是一顆高溫氣體巨行星。韋伯太空望遠鏡在其凌日光譜中觀測到水蒸氣訊號與雲霧特徵；這些資訊描述大氣，而非行星表面海洋。",
+              "radius": "約為木星的 1.2 倍",
+              "mass": "約為木星的 0.48 倍",
+              "distance": "約 1,150 光年",
+              "distanceFromParent": "約 0.045 天文單位",
+              "orbitalPeriod": "約 3.43 個地球日",
+              "atmosphere": "光譜觀測到水蒸氣訊號與雲霧特徵",
+              "discovered": "2014 年以凌日法發現",
+              "known": ["WASP-96 b 的大氣曾以韋伯太空望遠鏡進行詳細光譜觀測。", "大氣中的水蒸氣訊號不代表存在液態水海洋。"],
+              "unknown": ["雲層結構及大氣環流仍未完全了解。"],
+              "funFacts": ["它的大氣光譜是韋伯早期公開科學成果之一。", "觀測光譜像是行星大氣的化學指紋。"],
+              "source": { "name": "NASA 系外行星資料庫", "url": "https://exoplanetarchive.ipac.caltech.edu/", "accessed": "數值為資料庫與文獻估計近似" }
+            }
+          ]
+        },
+        {
+          "id": "stars",
+          "name": "恆星",
+          "type": "自行發光的天體",
+          "visual": "stars",
+          "description": "恆星以自身內部的核融合等過程釋放能量。距離較近的恆星能讓天文學家比較不同恆星的亮度、溫度與演化。",
+          "bodies": [
+            {
+              "id": "proxima-centauri",
+              "name": "比鄰星",
+              "kind": "紅矮星",
+              "visual": "proxima",
+              "summary": "距離太陽最近的恆星，位於半人馬座 α 星系統。",
+              "description": "比鄰星是一顆質量與亮度都遠低於太陽的紅矮星，距離地球約 4.24 光年。已確認有行星在它周圍運行，但行星是否適居仍需更多觀測。",
+              "diameter": "約為太陽直徑的 14%",
+              "mass": "約為太陽質量的 12%",
+              "distance": "約 4.24 光年",
+              "temperature": "表面約 3,000 °C",
+              "discovered": "1915 年由 Robert Innes 確認",
+              "known": [
+                "比鄰星是距離太陽最近的恆星，約 4.24 光年遠。",
+                "已確認至少一顆行星繞比鄰星運行。"
+              ],
+              "unknown": [
+                "比鄰星周圍行星的完整組成與表面環境仍有不確定性。"
+              ],
+              "funFacts": [
+                "比鄰星太暗，肉眼看不見。",
+                "它的恆星閃焰會影響附近行星的大氣環境。"
+              ],
+              "source": {
+                "name": "ESO：比鄰星",
+                "url": "https://www.eso.org/public/news/eso1629/",
+                "accessed": "參考 ESO 觀測資料"
+              }
+            },
+            {
+              "id": "sirius",
+              "name": "天狼星",
+              "kind": "雙星系統",
+              "visual": "sirius",
+              "summary": "夜空中最亮的恆星系統，由天狼星 A 與白矮星天狼星 B 組成。",
+              "description": "天狼星距離地球約 8.6 光年，是一個雙星系統。主星天狼星 A 是比太陽明亮的主序星；伴星天狼星 B 則是已演化成白矮星的恆星核心。",
+              "distance": "約 8.6 光年",
+              "orbitalPeriod": "雙星互繞約 50 年",
+              "temperature": "天狼星 A 表面約 9,900 °C",
+              "discovered": "自古可見；天狼星 B 於 1862 年被望遠鏡觀測確認",
+              "known": [
+                "天狼星是雙星系統，天狼星 B 是白矮星。",
+                "天狼星是地球夜空中最亮的恆星（不含太陽）。"
+              ],
+              "unknown": [
+                "天狼星系統的早期演化細節仍透過恆星模型研究。"
+              ],
+              "funFacts": [
+                "天狼星 B 的質量接近太陽，但體積約與地球相當。",
+                "天狼星在冬季夜空中特別醒目。"
+              ],
+              "source": {
+                "name": "NASA：天狼星 B",
+                "url": "https://science.nasa.gov/universe/stars/white-dwarfs/",
+                "accessed": "參考 NASA 恆星資料"
+              }
+            }
+          ]
+        },
+        {
+          "id": "nebulae",
+          "name": "星雲",
+          "type": "氣體與塵埃雲",
+          "visual": "nebula",
+          "description": "星雲是星際氣體與塵埃的集合，有些區域正在形成新恆星，有些則是恆星演化後留下的結構。",
+          "bodies": [
+            {
+              "id": "orion-nebula",
+              "name": "獵戶座星雲",
+              "kind": "恆星形成區",
+              "visual": "orion",
+              "summary": "距離地球約 1,300 光年的恆星育嬰室，可在暗夜中以肉眼辨認。",
+              "description": "獵戶座星雲（M42）是距離地球最近的大型恆星形成區之一。年輕恆星與輻射照亮周遭氣體，讓天文學家能研究恆星誕生與行星形成環境。",
+              "diameter": "約 24 光年",
+              "distance": "約 1,300 光年",
+              "temperature": "氣體溫度依區域而異",
+              "discovered": "1610 年由 Nicolas-Claude Fabri de Peiresc 記錄",
+              "known": [
+                "星雲中有大量年輕恆星與原行星盤。",
+                "星雲由氣體、塵埃及恆星輻射共同構成可見結構。"
+              ],
+              "unknown": [
+                "恆星形成區的氣體如何凝聚並形成不同質量恆星，仍持續研究。"
+              ],
+              "funFacts": [
+                "獵戶座星雲位於獵戶座腰帶下方的「寶劍」區域。",
+                "哈伯太空望遠鏡曾在此觀測到正在形成行星的原行星盤。"
+              ],
+              "source": {
+                "name": "NASA：獵戶座星雲",
+                "url": "https://science.nasa.gov/missions/hubble/hubble-sees-the-orion-nebula/",
+                "accessed": "參考 NASA 觀測資料"
+              }
+            }
+          ]
+        },
+        {
+          "id": "clusters",
+          "name": "星團",
+          "type": "恆星群集",
+          "visual": "clusters",
+          "description": "星團是由引力維繫或曾共同形成的恆星群，可協助研究恆星年齡與演化。",
+          "bodies": [
+            {
+              "id": "pleiades",
+              "name": "昴宿星團",
+              "kind": "疏散星團",
+              "visual": "pleiades",
+              "summary": "距離地球約 440 光年的明亮年輕星團，也稱七姊妹星團。",
+              "description": "昴宿星團（M45）是一個年輕的疏散星團，包含數千顆恆星。肉眼通常可看見其中數顆亮星；望遠鏡則能呈現更多成員與周遭塵埃。",
+              "diameter": "約 13 光年（主要星團範圍）",
+              "distance": "約 440 光年",
+              "temperature": "成員恆星溫度各異",
+              "discovered": "自古可見；伽利略於 1610 年以望遠鏡觀測",
+              "known": [
+                "星團距離地球約 440 光年，年齡約 1 億年。",
+                "其中多數恆星比太陽年輕且更熱。"
+              ],
+              "unknown": [
+                "星團成員在銀河系引力作用下如何逐漸分散，仍是研究主題。"
+              ],
+              "funFacts": [
+                "昴宿星團在不同文化中有多種名稱與神話。",
+                "「七姊妹」之名不代表星團只有七顆恆星。"
+              ],
+              "source": {
+                "name": "NASA：昴宿星團",
+                "url": "https://science.nasa.gov/missions/hubble/hubble-captures-a-stellar-jewel-box/",
+                "accessed": "參考 NASA 星團資料"
+              }
+            }
+          ]
+        },
+        {
+          "id": "black-holes",
+          "name": "黑洞",
+          "type": "極端重力天體",
+          "visual": "black-hole",
+          "description": "黑洞的重力強到連光也無法從事件視界內逃逸。天文學家透過周圍物質與恆星運動等方式研究它們。",
+          "bodies": [
+            {
+              "id": "sagittarius-a",
+              "name": "人馬座 A*",
+              "kind": "超大質量黑洞",
+              "visual": "black-hole",
+              "summary": "位於銀河系中心的超大質量黑洞，距離地球約 2.6 萬光年。",
+              "description": "人馬座 A*（Sgr A*）位於銀河系中心。天文學家透過追蹤附近恆星軌道推算其質量，事件視界望遠鏡合作計畫也已取得其周圍發光氣體的影像。",
+              "mass": "約為太陽質量的 400 萬倍",
+              "distance": "約 2.6 萬光年",
+              "discovered": "1970 年代以無線電觀測發現銀河系中心的緊密射電源",
+              "known": [
+                "附近恆星的軌道顯示銀河中心存在極大質量、極緊密的天體。",
+                "事件視界望遠鏡於 2022 年公布人馬座 A* 影像。"
+              ],
+              "unknown": [
+                "黑洞附近吸積物質的變化與磁場結構仍在研究中。"
+              ],
+              "funFacts": [
+                "人馬座 A* 的質量約為太陽的 400 萬倍，但事件視界尺度仍遠小於整個太陽系。",
+                "黑洞影像呈現的是周遭高溫物質與光線彎曲，不是黑洞內部的照片。"
+              ],
+              "source": {
+                "name": "事件視界望遠鏡：人馬座 A*",
+                "url": "https://eventhorizontelescope.org/press-release-april-2022-astronomers-reveal-first-image-black-hole-heart-our-galaxy",
+                "accessed": "參考 EHT 觀測資料"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "andromeda",
+      "name": "仙女座星系",
+      "type": "棒旋星系",
+      "visual": "andromeda",
+      "distance": "距離地球約 250 萬光年",
+      "summary": "距離銀河系最近的大型星系之一，未來將與銀河系交互作用。",
+      "description": "仙女座星系（M31）是本星系群中最大的星系，距離地球約 250 萬光年。它與銀河系都在互相接近，但兩者未來的交互作用細節仍受測量誤差與星系運動影響。",
+      "categories": [
+        {
+          "id": "nebulae",
+          "name": "星雲與恆星形成區",
+          "type": "恆星形成區",
+          "visual": "nebula",
+          "description": "仙女座星系中可觀測到恆星形成區；以下是其中一個代表性區域。",
+          "bodies": [
+            {
+              "id": "ngc-206",
+              "name": "NGC 206",
+              "kind": "恆星形成區",
+              "visual": "orion",
+              "summary": "仙女座星系內明亮的大型恆星形成區。",
+              "description": "NGC 206 是仙女座星系旋臂中的明亮星雲與年輕恆星群集區域。由於它位於另一個星系中，觀測到的光來自數百萬年前。",
+              "distance": "約 250 萬光年",
+              "temperature": "區域內氣體與恆星溫度各異",
+              "discovered": "以天文影像與光譜觀測研究",
+              "known": ["NGC 206 位於仙女座星系內，包含明亮的年輕恆星與氣體。"],
+              "unknown": ["其內部恆星形成活動的細節仍需更高解析度觀測。"],
+              "funFacts": ["NGC 206 的尺度遠大於太陽系，也包含許多比太陽更明亮的年輕恆星。", "它與地球相距約 250 萬光年。"],
+              "source": {
+                "name": "NASA：仙女座星系",
+                "url": "https://science.nasa.gov/missions/hubble/hubble-views-the-andromeda-galaxy/",
+                "accessed": "參考 NASA 觀測資料"
+              }
+            }
+          ]
+        },
+        {
+          "id": "clusters",
+          "name": "星團",
+          "type": "球狀星團",
+          "visual": "clusters",
+          "description": "仙女座星系擁有大量球狀星團，其中有些包含數十萬顆恆星。",
+          "bodies": [
+            {
+              "id": "mayall-ii",
+              "name": "Mayall II（G1）",
+              "kind": "球狀星團",
+              "visual": "pleiades",
+              "summary": "仙女座星系中最明亮、質量最大的球狀星團之一。",
+              "description": "Mayall II 又稱 G1，是仙女座星系的球狀星團。它比銀河系內多數球狀星團更明亮、更巨大，研究者曾探討其是否為矮星系核心殘留。",
+              "distance": "約 250 萬光年",
+              "temperature": "成員恆星溫度各異",
+              "discovered": "以地面與太空望遠鏡觀測研究",
+              "known": ["Mayall II 是仙女座星系中已知的大質量球狀星團之一。"],
+              "inferred": ["有研究提出它可能是被仙女座星系剝離外層後留下的矮星系核心；這仍是解釋模型。"],
+              "funFacts": ["球狀星團中的恆星常比太陽古老得多。", "Mayall II 位在仙女座星系外圍，仍受該星系重力束縛。"],
+              "source": {
+                "name": "NASA：仙女座星系觀測",
+                "url": "https://science.nasa.gov/missions/hubble/hubble-views-the-andromeda-galaxy/",
+                "accessed": "參考 NASA 觀測資料"
+              }
+            }
+          ]
+        },
+        {
+          "id": "black-holes",
+          "name": "黑洞",
+          "type": "極端重力天體",
+          "visual": "black-hole",
+          "description": "仙女座星系中心有一個超大質量黑洞，其周圍的恆星與氣體可供觀測研究。",
+          "bodies": [
+            {
+              "id": "m31-star",
+              "name": "M31*",
+              "kind": "超大質量黑洞",
+              "visual": "black-hole",
+              "summary": "仙女座星系中心的超大質量黑洞。",
+              "description": "仙女座星系中心有一個緻密射電與 X 射線源，通常稱為 M31*。其質量與活動程度透過周圍物質和恆星動力學估算，觀測特性與銀河系中心黑洞不同。",
+              "distance": "約 250 萬光年",
+              "discovered": "透過星系中心射電與 X 射線觀測研究",
+              "known": ["仙女座星系中心存在緻密高能天體，周圍有恆星與氣體活動。"],
+              "unknown": ["黑洞目前的吸積速率與精確質量仍有測量不確定性。"],
+              "funFacts": ["星系中心黑洞的質量可透過附近恆星與氣體的運動推估。", "M31* 目前比銀河系中心的人馬座 A* 安靜許多。"],
+              "source": {
+                "name": "NASA：仙女座星系觀測",
+                "url": "https://science.nasa.gov/missions/hubble/hubble-views-the-andromeda-galaxy/",
+                "accessed": "參考 NASA 觀測資料"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "triangulum",
+      "name": "三角座星系",
+      "type": "螺旋星系",
+      "visual": "triangulum",
+      "distance": "距離地球約 270 萬光年",
+      "summary": "本星系群中的螺旋星系，擁有活躍的恆星形成區。",
+      "description": "三角座星系（M33）是本星系群的第三大星系，也是距離地球較近的螺旋星系之一。它含有大量氣體與年輕恆星形成區，並可能與仙女座星系有引力交互作用。",
+      "categories": [
+        {
+          "id": "nebulae",
+          "name": "星雲與恆星形成區",
+          "type": "恆星形成區",
+          "visual": "nebula",
+          "description": "三角座星系內的大型電離氫區，是觀測恆星誕生的代表區域。",
+          "bodies": [
+            {
+              "id": "ngc-604",
+              "name": "NGC 604",
+              "kind": "電離氫區",
+              "visual": "orion",
+              "summary": "三角座星系中巨大的恆星形成區，包含大量年輕大質量恆星。",
+              "description": "NGC 604 是三角座星系內的大型電離氫區。年輕大質量恆星發出的紫外線使周遭氫氣電離，形成明亮的星雲結構。",
+              "distance": "約 270 萬光年",
+              "temperature": "電離氣體約為數千至一萬 °C",
+              "discovered": "1784 年由 William Herschel 發現",
+              "known": ["NGC 604 是本星系群中最大的恆星形成區之一。", "區域內可見大量年輕大質量恆星。"],
+              "unknown": ["星團形成與星雲內部氣體如何共同演化，仍在研究。"],
+              "funFacts": ["NGC 604 的尺度約達 1,500 光年。", "它位於距離地球約 270 萬光年的另一個星系中。"],
+              "source": {
+                "name": "NASA：NGC 604",
+                "url": "https://science.nasa.gov/missions/hubble/hubble-sees-a-stellar-factory/",
+                "accessed": "參考 NASA 觀測資料"
+              }
+            }
+          ]
+        },
+        {
+          "id": "star-forming-regions",
+          "name": "恆星形成區",
+          "type": "恆星形成區",
+          "visual": "clusters",
+          "description": "NGC 595 是三角座星系內的電離氫區，明亮氣體由其中年輕恆星的輻射照亮。",
+          "bodies": [
+            {
+              "id": "ngc-595",
+              "name": "NGC 595",
+              "kind": "電離氫區",
+              "visual": "pleiades",
+              "summary": "三角座星系中由年輕恆星照亮的電離氫區。",
+              "description": "NGC 595 是三角座星系內的大型電離氫區。年輕恆星的輻射使周圍氣體發光，提供研究星際氣體與恆星形成的觀測目標。",
+              "distance": "約 270 萬光年",
+              "temperature": "氣體與恆星溫度各異",
+              "discovered": "以望遠鏡觀測記錄",
+              "known": ["NGC 595 位於三角座星系，是活躍的恆星形成區。"],
+              "unknown": ["其中年輕恆星的年齡分布與形成歷史仍持續研究。"],
+              "funFacts": ["星雲發出的光來自周遭高溫恆星對氣體的照射。", "NGC 595 的光穿越數百萬光年才抵達地球。"],
+              "source": {
+                "name": "ESA/Hubble：三角座星系",
+                "url": "https://esahubble.org/images/heic1901a/",
+                "accessed": "參考 ESA/Hubble 觀測資料"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "large-magellanic-cloud",
+      "name": "大麥哲倫星系",
+      "type": "不規則矮星系",
+      "visual": "magellanic-cloud",
+      "distance": "距離地球約 16 萬光年",
+      "summary": "銀河系的衛星星系之一，擁有明亮的蜘蛛星雲與活躍的恆星形成。",
+      "description": "大麥哲倫星系是銀河系附近的不規則矮星系，南半球夜空中可見。它與銀河系的引力交互作用影響其形狀，也孕育了多個可供近距離研究的恆星形成區。",
+      "categories": [
+        {
+          "id": "stars",
+          "name": "恆星",
+          "type": "大質量恆星",
+          "visual": "stars",
+          "description": "大麥哲倫星系中的大質量恆星，能協助科學家理解恆星生命週期。",
+          "bodies": [
+            {
+              "id": "r136a1",
+              "name": "R136a1",
+              "kind": "沃爾夫－拉葉星",
+              "visual": "proxima",
+              "summary": "目前已知質量最大的恆星之一，位於蜘蛛星雲的 R136 星團。",
+              "description": "R136a1 是大麥哲倫星系中一顆極明亮的大質量恆星，位於 R136 星團。它透過強烈恆星風快速流失質量；其精確初始質量依模型而異。",
+              "mass": "目前估計約為太陽質量的 170–230 倍；初始質量模型值更高",
+              "distance": "約 16 萬光年",
+              "temperature": "表面約 5 萬 °C",
+              "discovered": "20 世紀透過望遠鏡觀測確認",
+              "known": ["R136a1 是已知極大質量與高光度恆星之一。", "它位於大麥哲倫星系的 R136 星團。"],
+              "inferred": ["其形成可能涉及緊密星團內的大質量恆星交互作用；形成途徑仍在研究。"],
+              "funFacts": ["R136a1 的光度約為太陽的數百萬倍。", "這顆恆星距離地球約 16 萬光年。"],
+              "source": {
+                "name": "ESO：R136a1",
+                "url": "https://www.eso.org/public/news/eso1007/",
+                "accessed": "參考 ESO 觀測與模型估算"
+              }
+            }
+          ]
+        },
+        {
+          "id": "nebulae",
+          "name": "星雲與恆星形成區",
+          "type": "恆星形成區",
+          "visual": "nebula",
+          "description": "蜘蛛星雲是本星系中最活躍的大型恆星形成區之一。",
+          "bodies": [
+            {
+              "id": "tarantula-nebula",
+              "name": "蜘蛛星雲",
+              "kind": "恆星形成區",
+              "visual": "orion",
+              "summary": "大麥哲倫星系中規模龐大的恆星育嬰室，亦稱 30 Doradus。",
+              "description": "蜘蛛星雲（30 Doradus）包含大量年輕大質量恆星與電離氣體。它是距離地球相對近、又極活躍的恆星形成區，讓天文學家能研究大質量恆星如何改變周遭環境。",
+              "diameter": "約 1,000 光年",
+              "distance": "約 16 萬光年",
+              "temperature": "氣體溫度依區域而異",
+              "discovered": "1751 年由 Nicolas-Louis de Lacaille 記錄",
+              "known": ["蜘蛛星雲是本星系群中最活躍的大型恆星形成區之一。", "其中包含 R136 等年輕星團。"],
+              "unknown": ["大質量恆星如何在此類環境中形成與聚集，仍有細節待釐清。"],
+              "funFacts": ["蜘蛛星雲的正式天體編號之一是 30 Doradus。", "它的尺度足以容納許多恆星團與廣闊的氣體雲。"],
+              "source": {
+                "name": "NASA：蜘蛛星雲",
+                "url": "https://science.nasa.gov/missions/hubble/hubble-spies-a-spider/",
+                "accessed": "參考 NASA 觀測資料"
+              }
+            }
+          ]
+        },
+        {
+          "id": "clusters",
+          "name": "星團",
+          "type": "年輕星團",
+          "visual": "clusters",
+          "description": "年輕星團與星雲相鄰，能呈現大質量恆星形成後的環境。",
+          "bodies": [
+            {
+              "id": "r136",
+              "name": "R136",
+              "kind": "年輕緻密星團",
+              "visual": "pleiades",
+              "summary": "位於蜘蛛星雲中心附近，包含許多高溫大質量恆星。",
+              "description": "R136 是大麥哲倫星系內年輕而緻密的星團，位於 30 Doradus 恆星形成區。其成員恆星的強烈紫外線與恆星風正在改變周遭星際氣體。",
+              "distance": "約 16 萬光年",
+              "temperature": "成員恆星溫度各異；包含高溫大質量恆星",
+              "discovered": "透過高解析度望遠鏡觀測研究",
+              "known": ["R136 是 30 Doradus 中的年輕緻密星團。", "其中有多顆極大質量恆星。"],
+              "unknown": ["星團中部分恆星的形成與演化歷史仍有不確定性。"],
+              "funFacts": ["R136 的高能輻射雕刻出周遭星雲的形狀。", "這類星團可作為研究大質量恆星的天然實驗室。"],
+              "source": {
+                "name": "NASA：蜘蛛星雲",
+                "url": "https://science.nasa.gov/missions/hubble/hubble-spies-a-spider/",
+                "accessed": "參考 NASA 觀測資料"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
